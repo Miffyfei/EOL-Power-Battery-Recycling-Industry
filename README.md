@@ -160,4 +160,10 @@ If you use this repository, please cite the associated manuscript:
 ```
 
 ## Contact
-For questions or collaboration proposals, please open an issue in the repository or contact the corresponding author via email listed in the manuscript.
+For questions or collaboration requests:
+
+- Prof. Fanran Meng – f.meng@sheffield.ac.uk
+- Prof. Xi Tian – tianxi@ncu.edu.cn
+- Ms. Fei Peng – pengfei24@email.ncu.edu.cn
+
+Affiliations: Nanchang University (China) and University of Sheffield (UK).
