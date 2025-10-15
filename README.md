@@ -1,12 +1,29 @@
-# EOL-Power-Battery-Recycling-Industry
 # Reducing the Environmental Impacts of Battery Recycling through Spatial and Technological Alignment
 
-## Overview
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Data Availability](#data-availability)
+- [System & Software Requirements](#system--software-requirements)
+- [Quick Start](#quick-start)
+- [Recommended Workflow](#recommended-workflow)
+  - [1. Predict EOL battery streams](#1-predict-eol-battery-streams)
+  - [2. Generate EOL scenarios](#2-generate-eol-scenarios)
+  - [3. Quantify environmental impacts](#3-quantify-environmental-impacts)
+- [Module Reference](#module-reference)
+  - [Prediction module](#prediction-module)
+  - [Environmental assessment module](#environmental-assessment-module)
+  - [Scenario simulation module](#scenario-simulation-module)
+- [Troubleshooting](#troubleshooting)
+- [Citation](#citation)
+- [Contact](#contact)
+  
+## Project Overview
 This repository accompanies the paper **"Reducing the environmental impacts of battery recycling through spatial and technological alignment"**. It contains the full modelling stack required to:
 
-- Forecast the end-of-life (EOL) volume of power batteries from passenger electric vehicles (PEV) and commercial electric vehicles (CEV).
-- Simulate provincial recycling technology portfolios under multiple scenarios (baseline, technology-oriented, supply-oriented, etc.).
-- Quantify life-cycle environmental impacts and cross-regional transport flows that arise from alternative spatial alignments of recycling infrastructure.
+1. **Prediction of EOL battery flows** for passenger electric vehicles (PEV) and commercial electric vehicles (CEV) using machine-learning models with automatic clustering, feature engineering, and cross-validation.
+2. **Scenario generation** translating vehicle retirements into provincial EOL battery volumes under four recycling technology pathways (Baseline, Technology Optimisation, Electrification Dominance, and Localisation Enhancement).
+3. **Environmental impact assessment** for 52 supply–demand combinations, including detailed metal recovery balances and cross-regional transport allocation to recycling facilities.
 
 The repository is organised into three functional modules that can be executed independently or as a complete workflow:
 
@@ -48,20 +65,36 @@ EOL-Power-Battery-Recycling-Industry/
 
 > **Note:** The current repository follows the layout used for the published experiments. Future refactoring will group shared utilities (e.g., common loaders and plotting helpers) into dedicated modules; contributions that improve modularity are very welcome.
 
-## Prerequisites
-- Python **3.9 – 3.11** (tested on 3.10).
-- System packages: `git`, `python3-venv`, and a working C/C++ toolchain (required by `xgboost`).
-- Recommended hardware: at least 16 GB RAM for the forecasting stage because RandomizedSearchCV performs repeated training.
+## System & Software Requirements
+The code has been executed on the following configurations.
 
-## Python Dependencies
-Install the core scientific stack before running the scripts:
+### Hardware
+- CPU: Intel Core i5 (or equivalent)
+- RAM: ≥ 8 GB
+- Storage: ≥ 1 GB free space (to accommodate intermediate Excel exports)
+
+### Operating Systems
+| OS      | Tested Versions |
+|---------|-----------------|
+| Windows | 10, 11          |
+| macOS   | 12 (Monterey)+  |
+| Linux   | Ubuntu 20.04, 22.04 |
+
+### Python
+Python 3.8–3.11 are supported; 3.10 is recommended for parity with the paper.
+
+### Python Dependencies
+Install the core scientific stack before running any script:
 
 ```bash
-pip install -U pip
-pip install numpy pandas scipy scikit-learn xgboost seaborn matplotlib openpyxl tqdm geopandas networkx ortools
+pip install pandas==1.5.3 numpy==1.23.5 scikit-learn==1.2.2 \
+            xgboost==1.7.6 tensorflow==2.11.0 keras==2.11.0 \
+            mlxtend==0.21.0 scipy==1.10.1 seaborn==0.12.2 \
+            matplotlib==3.7.1 openpyxl==3.1.2 geopandas==0.12.2 \
+            rasterio==1.3.7
 ```
 
-The transport optimisation module additionally uses `geopandas`, `networkx`, and `ortools`. If these are unnecessary for your workflow you may omit them, but the full suite is required to reproduce the manuscript results.
+> Tip: create an isolated environment (e.g., `conda create -n eol-battery python=3.10`) before installing dependencies to avoid conflicts with system packages.
 
 ## Data Availability
 All input Excel and CSV files referenced by the scripts are provided under the corresponding `input data/` folders.
@@ -79,76 +112,111 @@ All input Excel and CSV files referenced by the scripts are provided under the c
 All outputs are written to the matching `output data/` directories. Delete or rename existing files if you want to regenerate results from scratch.
 
 ## Quick Start
-### 1. Clone the Repository
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<org>/EOL-Power-Battery-Recycling-Industry.git
+   cd EOL-Power-Battery-Recycling-Industry
+   ```
+2. **Create and activate a Python environment** (optional but recommended)
+   ```bash
+   conda create -n eol-battery python=3.10
+   conda activate eol-battery
+   ```
+3. **Install dependencies** using the command shown above.
+4. **Run the end-to-end workflow** (see [Recommended Workflow](#recommended-workflow)) or execute individual modules as needed.
+
+## Recommended Workflow
+The following sequence reproduces the manuscript figures and tables. All paths are relative to the repository root.
+
+### 1. Predict EOL battery streams
+1. **Passenger electric vehicles (PEV)**
+   ```bash
+   python "EOL power batteries prediction/step1_Prediction_PEV.py"
+   ```
+2. **Commercial electric vehicles (CEV)**
+   ```bash
+   python "EOL power batteries prediction/step1_prediction_CEV.py"
+   ```
+
+These scripts automatically:
+- Clean and cluster the provincial time series.
+- Train ensemble models with cross-validation.
+- Export diagnostics (charts, metrics) and province-level forecasts to `EOL power batteries prediction/output data/results_electric vehicle/` and `.../results_EOL power battery/`.
+
+> Outputs: `*_ClusterBest_Forecast.xlsx` (model diagnostics) and `*_Forecast_by_province.xlsx` (annual retirements).
+
+### 2. Generate EOL scenarios
+Convert vehicle retirements into EOL battery volumes under the four technology pathways:
+
 ```bash
-git clone https://github.com/<user>/EOL-Power-Battery-Recycling-Industry.git
-cd EOL-Power-Battery-Recycling-Industry
+python "EOL power batteries prediction/step2_Prediction EOL power battery from CEV and PEV in BS.py"
+python "EOL power batteries prediction/step2_Prediction EOL power battery from CEV and PEV in TP.py"
+python "EOL power batteries prediction/step2_Prediction EOL power battery from CEV and PEV in ED.py"
+python "EOL power batteries prediction/step2_Prediction EOL power battery from CEV and PEV in LE.py"
 ```
 
-### 2. Create a Virtual Environment (optional but recommended)
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt  # or use the command listed above
-```
+Each script reads the outputs from Step 1, combines them with technology adoption assumptions, and produces pathway-specific EOL battery inventories saved in `EOL power batteries prediction/output data/results_EOL power battery/`.
 
-### 3. Run an End-to-End Workflow
-The workflow consists of three stages. You may execute them sequentially or run a single module as needed.
+### 3. Quantify environmental impacts
 
-1. **Forecast EOL volumes**
+1. **Allocate cross-regional transport flows** (optional if using provided transport outputs):
    ```bash
-   cd "EOL power batteries prediction"
-   python step1_Prediction_PEV.py   # Generates PEV clusters, model diagnostics, and forecasts
-   python step1_prediction_CEV.py   # Generates CEV counterparts
-   python "step2_Prediction EOL power battery from CEV and PEV in BS.py"
-   python "step2_Prediction EOL power battery from CEV and PEV in TP.py"
-   python "step2_Prediction EOL power battery from CEV and PEV in ED.py"
-   python "step2_Prediction EOL power battery from CEV and PEV in LE.py"
+   python "environment assessment/Cross regions transportation/CrossTransportation.py"
    ```
-   The step-2 scripts merge PEV & CEV forecasts with scenario-specific parameters and save harmonised provincial outputs (Excel workbooks) for downstream modules.
+   Generates annual tonne-kilometre balances for baseline and three alternative spatial coordination policies in `environment assessment/Cross regions transportation/output data/`.
 
-2. **Simulate recycling scenarios**
+2. **Simulate environmental impacts and metal recovery** for each supply-side strategy:
    ```bash
-   cd "../scenario simulation"
-   python Simulation_BS_environment.py
-   python Simulation_TO_environment.py
-   python Simulation_SU_environment.py
-   python Simulation_ES_environment.py
-   python Simulation_AR_environment.py
+   python "scenario simulation/Simulation_BS_environment.py"
+   python "scenario simulation/Simulation_TO_environment.py"
+   python "scenario simulation/Simulation_ES_environment.py"
+   python "scenario simulation/Simulation_SU_environment.py"
+   python "scenario simulation/Simulation_AR_environment.py"
    ```
-   Each script reads the harmonised EOL datasets, applies technology proportions, computes environmental impacts, and writes Excel summaries to `output data/`. The optional notebook `sum_comparison total environment impact and metal.ipynb` consolidates scenario outputs into comparison tables and figures.
 
-3. **Assess transport and energy-mix impacts**
-   ```bash
-   cd "../environment assessment/Cross regions transportation"
-   python CrossTransportation.py
-   ```
-   This module allocates EOL flows across provinces under multiple routing policies (baseline intra-province, neighbour provinces, 300 km radius, etc.), and exports route-level and province-level flow tables. Energy-mix sensitivity factors for TO1–TO3 scenarios are computed separately and stored in `environment assessment/output data/`.
+   The scripts combine life-cycle impact factors (`scenario simulation/input data/`) with EOL scenario inventories to compute 11 environmental indicators and recovered metal quantities. Results are exported to Excel workbooks in `scenario simulation/output data/`, including a consolidated file covering all 52 combined scenarios.
 
-Return to the repository root once the workflow is complete:
-```bash
-cd ../../
-```
+## Module Reference
 
-## Example: Inspecting Outputs
-- `EOL power batteries prediction/output data/results_electric vehicle/PEV_ClusterBest_Forecast.xlsx` – contains time-series forecasts by cluster and city for PEV fleets.
-- `scenario simulation/output data/Environmental impact and metal recovery results under BS scenario.xlsx` – summarises life-cycle impact scores and recovered metals for the baseline scenario.
-- `environment assessment/Cross regions transportation/output data/flows_baseline_inprov.csv` – annual in-province flow allocations used in the transport analysis.
+### Prediction module
+| Script | Purpose | Key inputs | Key outputs |
+|--------|---------|------------|-------------|
+| `step1_Prediction_PEV.py` | Clusters provinces and trains machine-learning models to forecast PEV retirements through 2030. | `input data/2016-2030_PEV and CEV_month+data.xlsx` (`Sheet1`) | `output data/results_electric vehicle/PEV_*.xlsx`, diagnostic PNGs |
+| `step1_prediction_CEV.py` | Same as above for CEV fleet with tailored feature set and hyperparameters. | `input data/2016-2030_PEV and CEV_month+data.xlsx` (`Sheet1`) | `output data/results_electric vehicle/CEV_*.xlsx`, diagnostic PNGs |
+| `step2_Prediction EOL power battery from CEV and PEV in BS.py` | Combines Step 1 forecasts with Baseline recycling technology shares. | `output data/results_electric vehicle/*Forecast_by_province.xlsx`, `input data/annual_*_data.xlsx` | `output data/results_EOL power battery/BS_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in TP.py` | Technology optimisation pathway | Same as above plus `battery proportion of 24 in TP.xlsx` | `output data/results_EOL power battery/TP_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in ED.py` | Electrification dominance pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/ED_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in LE.py` | Localisation enhancement pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/LE_*.xlsx` |
 
-## Customising the Experiments
-- **Update socio-economic drivers:** replace the Excel files in `EOL power batteries prediction/input data/`. Ensure column names align with those expected by the scripts (see constants near the top of each file).
-- **Change scenario proportions:** edit the process proportion workbooks in `scenario simulation/input data/` and rerun the corresponding scenario script.
-- **Modify transport constraints:** adjust facility capacities (`formal_capacity_by_province.csv`) or adjacency relationships (`province_adjacency.csv`) before re-running `CrossTransportation.py`.
+### Environmental assessment module
+| Script | Purpose | Key inputs | Key outputs |
+|--------|---------|------------|-------------|
+| `Cross regions transportation/CrossTransportation.py` | Allocates EOL flows between provinces, calculates tonne-kilometres, and summarises informal vs. formal collection. | `Cross regions transportation/input data/*.csv` | `Cross regions transportation/output data/*_transport_results.xlsx` |
+
+The folder `environment assessment/output data/` stores energy mix impact factors already linked to the scenario simulations. Update these spreadsheets if regional electricity mixes or process inventories change.
+
+### Scenario simulation module
+| Script | Purpose | Key inputs | Key outputs |
+|--------|---------|------------|-------------|
+| `Simulation_BS_environment.py` | Calculates environmental burdens and recovered metals for the Baseline supply-side strategy. | `input data/LCA data.xlsx`, `input data/Process type proportion_BS.xlsx`, `input data/EOL LFP and NCM battery.xlsx` | `output data/Environmental impact and metal recovery results under BS scenario.xlsx` |
+| `Simulation_TO_environment.py` | Technology optimisation supply-side assumptions. | `input data/100%TOSumLCA.xlsx` and shared LCA files | `output data/Environmental impact and metal recovery results under TO scenario.xlsx` |
+| `Simulation_ES_environment.py` | Energy structure scenarios (ES1–ES3). | `input data/LCA data about ES*.xlsx` | `output data/Environmental impact and metal recovery results under ES scenario.xlsx` |
+| `Simulation_SU_environment.py` | Supply-side upgrade scenario. | `input data/LCA data with SU.xlsx` | `output data/Environmental impact and metal recovery results under SU scenario.xlsx` |
+| `Simulation_AR_environment.py` | Advanced recovery scenario combining technology and energy improvements. | `input data/Environmental_impacts_with_transport under4 scenario.xlsx` | `output data/Environmental impact and metal recovery results under AR scenario.xlsx` |
+| `sum_comparison total environment impact and metal.ipynb` | Interactive workbook to compare results across scenarios and prepare figures. | Scenario outputs listed above | Visualisations and aggregate tables |
 
 ## Troubleshooting
-- **Missing dependency errors:** ensure the Python environment matches the versions listed above. Some packages (e.g., `xgboost`, `ortools`) require compilation; install system build tools if pip wheels are unavailable for your platform.
-- **Excel write permissions:** scripts overwrite existing Excel sheets. Close any open workbooks before running the code to avoid `PermissionError`.
-- **Memory errors during model fitting:** reduce `N_TRIALS` in the step-1 prediction scripts to limit RandomizedSearchCV iterations or run clustering/model fitting per city cluster.
+| Issue | Possible cause & resolution |
+|-------|----------------------------|
+| `ImportError` for scientific packages | Confirm the virtual environment is active and dependencies are installed with the versions listed above. |
+| Excel writer errors (`PermissionError`) | Ensure output workbooks are closed before rerunning scripts; Windows users may need to close Excel completely. |
+| Missing column errors | Verify customised input files preserve header names and data types expected by the scripts (see inline assertions within each script). |
+| Long runtime during model tuning | Reduce `N_TRIALS`/`N_SPLITS` parameters near the top of the Step 1 scripts for exploratory runs. |
 
-## How to Cite
-If you use this repository, please cite the associated manuscript:
+## Citation
+If you use this repository, please cite the associated article:
 
-> *Reducing the environmental impacts of battery recycling through spatial and technological alignment*, 2024.
+>  **Reducing the environmental impacts of battery recycling through spatial and technological alignment.**
 
 ```
 @article{<placeholder>,
