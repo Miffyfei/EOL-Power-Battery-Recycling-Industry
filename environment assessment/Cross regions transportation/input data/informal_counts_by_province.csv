@@ -1,0 +1,342 @@
+﻿year,province,Abbreviation,micro_cnt,medium_cnt
+2020,Anhui ,AH,8,0
+2020,Beijing ,BJ,1,0
+2020,Fujian ,FJ,8,2
+2020,Gansu ,GS,4,0
+2020,Guangdong ,GD,15,1
+2020,Guangxi Zhuang,GX,1,1
+2020,Guizhou ,GZ,2,1
+2020,Hainan ,HI,2,0
+2020,Hebei ,HE,11,1
+2020,Henan ,HA,10,5
+2020,Heilongjiang ,HL,0,0
+2020,Hubei ,HB,7,1
+2020,Hunan ,HN,11,3
+2020,Jilin ,JL,2,0
+2020,Jiangsu ,JS,9,5
+2020,Jiangxi ,JX,7,1
+2020,Liaoning ,LN,4,1
+2020,Inner Mongolia,NM,2,0
+2020,Ningxia,NX,0,1
+2020,Qinghai ,QH,1,2
+2020,Shandong ,SD,7,3
+2020,Shanxi ,SX,2,0
+2020,Shaanxi ,SN,15,6
+2020,Shanghai ,SH,0,1
+2020,Sichuan ,SC,3,1
+2020,Tianjin ,TJ,0,0
+2020,Tibet,XZ,0,0
+2020,Xinjiang,XJ,7,1
+2020,Yunnan ,YN,3,4
+2020,Zhejiang ,ZJ,5,0
+2020,Chongqing ,CQ,0,2
+2021,Anhui ,AH,79,22
+2021,Beijing ,BJ,2,1
+2021,Fujian ,FJ,47,14
+2021,Gansu ,GS,18,6
+2021,Guangdong ,GD,48,5
+2021,Guangxi,GX,22,9
+2021,Guizhou ,GZ,20,3
+2021,Hainan ,HI,71,7
+2021,Hebei ,HE,14,7
+2021,Henan ,HA,89,18
+2021,Heilongjiang ,HL,5,0
+2021,Hubei ,HB,9,1
+2021,Hunan ,HN,17,7
+2021,Jilin ,JL,21,0
+2021,Jiangsu ,JS,50,24
+2021,Jiangxi ,JX,23,5
+2021,Liaoning ,LN,10,7
+2021,Inner Mongolia,NM,7,3
+2021,Ningxia,NX,2,1
+2021,Qinghai ,QH,20,4
+2021,Shandong ,SD,37,10
+2021,Shanxi ,SX,7,1
+2021,Shaanxi ,SN,90,32
+2021,Shanghai ,SH,2,1
+2021,Sichuan ,SC,36,3
+2021,Tianjin ,TJ,1,0
+2021,Tibet,XZ,3,1
+2021,Xinjiang,XJ,28,7
+2021,Yunnan ,YN,47,15
+2021,Zhejiang ,ZJ,19,4
+2021,Chongqing ,CQ,20,6
+2022,Anhui ,AH,139,139
+2022,Beijing ,BJ,16,16
+2022,Fujian ,FJ,63,63
+2022,Gansu ,GS,44,44
+2022,Guangdong ,GD,177,177
+2022,Guangxi Zhuang,GX,24,24
+2022,Guizhou ,GZ,100,100
+2022,Hainan ,HI,137,137
+2022,Hebei ,HE,53,53
+2022,Henan ,HA,137,137
+2022,Heilongjiang ,HL,8,8
+2022,Hubei ,HB,73,73
+2022,Hunan ,HN,109,109
+2022,Jilin ,JL,47,47
+2022,Jiangsu ,JS,104,104
+2022,Jiangxi ,JX,43,43
+2022,Liaoning ,LN,14,14
+2022,Inner Mongolia,NM,20,20
+2022,Ningxia,NX,9,9
+2022,Qinghai ,QH,15,15
+2022,Shandong ,SD,89,89
+2022,Shanxi ,SX,27,27
+2022,Shaanxi ,SN,119,119
+2022,Shanghai ,SH,9,9
+2022,Sichuan ,SC,39,39
+2022,Tianjin ,TJ,3,3
+2022,Tibet,XZ,9,9
+2022,Xinjiang,XJ,52,52
+2022,Yunnan ,YN,118,118
+2022,Zhejiang ,ZJ,41,41
+2022,Chongqing ,CQ,44,44
+2023,Anhui ,AH,159,26
+2023,Beijing ,BJ,54,11
+2023,Fujian ,FJ,67,29
+2023,Gansu ,GS,78,12
+2023,Guangdong ,GD,190,38
+2023,Guangxi Zhuang,GX,16,12
+2023,Guizhou ,GZ,59,16
+2023,Hainan ,HI,98,3
+2023,Hebei ,HE,225,63
+2023,Henan ,HA,80,19
+2023,Heilongjiang ,HL,10,2
+2023,Hubei ,HB,66,17
+2023,Hunan ,HN,101,28
+2023,Jilin ,JL,11,4
+2023,Jiangsu ,JS,123,30
+2023,Jiangxi ,JX,36,9
+2023,Liaoning ,LN,12,7
+2023,Inner Mongolia,NM,10,3
+2023,Ningxia,NX,8,1
+2023,Qinghai ,QH,13,3
+2023,Shandong ,SD,47,13
+2023,Shanxi ,SX,27,9
+2023,Shaanxi ,SN,103,33
+2023,Shanghai ,SH,4,6
+2023,Sichuan ,SC,29,5
+2023,Tianjin ,TJ,1,1
+2023,Tibet,XZ,4,2
+2023,Xinjiang,XJ,37,13
+2023,Yunnan ,YN,123,17
+2023,Zhejiang ,ZJ,45,12
+2023,Chongqing ,CQ,40,8
+2024,Anhui ,AH,264,42
+2024,Beijing ,BJ,65,10
+2024,Fujian ,FJ,148,22
+2024,Gansu ,GS,41,10
+2024,Guangdong ,GD,261,34
+2024,Guangxi Zhuang,GX,127,15
+2024,Guizhou ,GZ,47,10
+2024,Hainan ,HI,93,6
+2024,Hebei ,HE,393,34
+2024,Henan ,HA,249,29
+2024,Heilongjiang ,HL,34,6
+2024,Hubei ,HB,96,20
+2024,Hunan ,HN,124,29
+2024,Jilin ,JL,43,9
+2024,Jiangsu ,JS,167,52
+2024,Jiangxi ,JX,48,14
+2024,Liaoning ,LN,18,17
+2024,Inner Mongolia,NM,27,8
+2024,Ningxia,NX,15,5
+2024,Qinghai ,QH,18,4
+2024,Shandong ,SD,29,23
+2024,Shanxi ,SX,32,18
+2024,Shaanxi ,SN,52,14
+2024,Shanghai ,SH,25,9
+2024,Sichuan ,SC,94,13
+2024,Tianjin ,TJ,10,7
+2024,Tibet,XZ,10,1
+2024,Xinjiang,XJ,65,15
+2024,Yunnan ,YN,213,16
+2024,Zhejiang ,ZJ,89,17
+2024,Chongqing ,CQ,61,17
+2025,Anhui ,AH,264,42
+2025,Beijing ,BJ,65,10
+2025,Fujian ,FJ,148,22
+2025,Gansu ,GS,41,10
+2025,Guangdong ,GD,261,34
+2025,Guangxi Zhuang,GX,127,15
+2025,Guizhou ,GZ,47,10
+2025,Hainan ,HI,93,6
+2025,Hebei ,HE,393,34
+2025,Henan ,HA,249,29
+2025,Heilongjiang ,HL,34,6
+2025,Hubei ,HB,96,20
+2025,Hunan ,HN,124,29
+2025,Jilin ,JL,43,9
+2025,Jiangsu ,JS,167,52
+2025,Jiangxi ,JX,48,14
+2025,Liaoning ,LN,18,17
+2025,Inner Mongolia,NM,27,8
+2025,Ningxia,NX,15,5
+2025,Qinghai ,QH,18,4
+2025,Shandong ,SD,29,23
+2025,Shanxi ,SX,32,18
+2025,Shaanxi ,SN,52,14
+2025,Shanghai ,SH,25,9
+2025,Sichuan ,SC,94,13
+2025,Tianjin ,TJ,10,7
+2025,Tibet,XZ,10,1
+2025,Xinjiang,XJ,65,15
+2025,Yunnan ,YN,213,16
+2025,Zhejiang ,ZJ,89,17
+2025,Chongqing ,CQ,61,17
+2026,Anhui ,AH,264,42
+2026,Beijing ,BJ,65,10
+2026,Fujian ,FJ,148,22
+2026,Gansu ,GS,41,10
+2026,Guangdong ,GD,261,34
+2026,Guangxi Zhuang,GX,127,15
+2026,Guizhou ,GZ,47,10
+2026,Hainan ,HI,93,6
+2026,Hebei ,HE,393,34
+2026,Henan ,HA,249,29
+2026,Heilongjiang ,HL,34,6
+2026,Hubei ,HB,96,20
+2026,Hunan ,HN,124,29
+2026,Jilin ,JL,43,9
+2026,Jiangsu ,JS,167,52
+2026,Jiangxi ,JX,48,14
+2026,Liaoning ,LN,18,17
+2026,Inner Mongolia,NM,27,8
+2026,Ningxia,NX,15,5
+2026,Qinghai ,QH,18,4
+2026,Shandong ,SD,29,23
+2026,Shanxi ,SX,32,18
+2026,Shaanxi ,SN,52,14
+2026,Shanghai ,SH,25,9
+2026,Sichuan ,SC,94,13
+2026,Tianjin ,TJ,10,7
+2026,Tibet,XZ,10,1
+2026,Xinjiang,XJ,65,15
+2026,Yunnan ,YN,213,16
+2026,Zhejiang ,ZJ,89,17
+2026,Chongqing ,CQ,61,17
+2027,Anhui ,AH,264,42
+2027,Beijing ,BJ,65,10
+2027,Fujian ,FJ,148,22
+2027,Gansu ,GS,41,10
+2027,Guangdong ,GD,261,34
+2027,Guangxi Zhuang,GX,127,15
+2027,Guizhou ,GZ,47,10
+2027,Hainan ,HI,93,6
+2027,Hebei ,HE,393,34
+2027,Henan ,HA,249,29
+2027,Heilongjiang ,HL,34,6
+2027,Hubei ,HB,96,20
+2027,Hunan ,HN,124,29
+2027,Jilin ,JL,43,9
+2027,Jiangsu ,JS,167,52
+2027,Jiangxi ,JX,48,14
+2027,Liaoning ,LN,18,17
+2027,Inner Mongolia,NM,27,8
+2027,Ningxia,NX,15,5
+2027,Qinghai ,QH,18,4
+2027,Shandong ,SD,29,23
+2027,Shanxi ,SX,32,18
+2027,Shaanxi ,SN,52,14
+2027,Shanghai ,SH,25,9
+2027,Sichuan ,SC,94,13
+2027,Tianjin ,TJ,10,7
+2027,Tibet,XZ,10,1
+2027,Xinjiang,XJ,65,15
+2027,Yunnan ,YN,213,16
+2027,Zhejiang ,ZJ,89,17
+2027,Chongqing ,CQ,61,17
+2028,Anhui ,AH,264,42
+2028,Beijing ,BJ,65,10
+2028,Fujian ,FJ,148,22
+2028,Gansu ,GS,41,10
+2028,Guangdong ,GD,261,34
+2028,Guangxi Zhuang,GX,127,15
+2028,Guizhou ,GZ,47,10
+2028,Hainan ,HI,93,6
+2028,Hebei ,HE,393,34
+2028,Henan ,HA,249,29
+2028,Heilongjiang ,HL,34,6
+2028,Hubei ,HB,96,20
+2028,Hunan ,HN,124,29
+2028,Jilin ,JL,43,9
+2028,Jiangsu ,JS,167,52
+2028,Jiangxi ,JX,48,14
+2028,Liaoning ,LN,18,17
+2028,Inner Mongolia,NM,27,8
+2028,Ningxia,NX,15,5
+2028,Qinghai ,QH,18,4
+2028,Shandong ,SD,29,23
+2028,Shanxi ,SX,32,18
+2028,Shaanxi ,SN,52,14
+2028,Shanghai ,SH,25,9
+2028,Sichuan ,SC,94,13
+2028,Tianjin ,TJ,10,7
+2028,Tibet,XZ,10,1
+2028,Xinjiang,XJ,65,15
+2028,Yunnan ,YN,213,16
+2028,Zhejiang ,ZJ,89,17
+2028,Chongqing ,CQ,61,17
+2029,Anhui ,AH,264,42
+2029,Beijing ,BJ,65,10
+2029,Fujian ,FJ,148,22
+2029,Gansu ,GS,41,10
+2029,Guangdong ,GD,261,34
+2029,Guangxi Zhuang,GX,127,15
+2029,Guizhou ,GZ,47,10
+2029,Hainan ,HI,93,6
+2029,Hebei ,HE,393,34
+2029,Henan ,HA,249,29
+2029,Heilongjiang ,HL,34,6
+2029,Hubei ,HB,96,20
+2029,Hunan ,HN,124,29
+2029,Jilin ,JL,43,9
+2029,Jiangsu ,JS,167,52
+2029,Jiangxi ,JX,48,14
+2029,Liaoning ,LN,18,17
+2029,Inner Mongolia,NM,27,8
+2029,Ningxia,NX,15,5
+2029,Qinghai ,QH,18,4
+2029,Shandong ,SD,29,23
+2029,Shanxi ,SX,32,18
+2029,Shaanxi ,SN,52,14
+2029,Shanghai ,SH,25,9
+2029,Sichuan ,SC,94,13
+2029,Tianjin ,TJ,10,7
+2029,Tibet,XZ,10,1
+2029,Xinjiang,XJ,65,15
+2029,Yunnan ,YN,213,16
+2029,Zhejiang ,ZJ,89,17
+2029,Chongqing ,CQ,61,17
+2030,Anhui ,AH,264,42
+2030,Beijing ,BJ,65,10
+2030,Fujian ,FJ,148,22
+2030,Gansu ,GS,41,10
+2030,Guangdong ,GD,261,34
+2030,Guangxi Zhuang,GX,127,15
+2030,Guizhou ,GZ,47,10
+2030,Hainan ,HI,93,6
+2030,Hebei ,HE,393,34
+2030,Henan ,HA,249,29
+2030,Heilongjiang ,HL,34,6
+2030,Hubei ,HB,96,20
+2030,Hunan ,HN,124,29
+2030,Jilin ,JL,43,9
+2030,Jiangsu ,JS,167,52
+2030,Jiangxi ,JX,48,14
+2030,Liaoning ,LN,18,17
+2030,Inner Mongolia,NM,27,8
+2030,Ningxia,NX,15,5
+2030,Qinghai ,QH,18,4
+2030,Shandong ,SD,29,23
+2030,Shanxi ,SX,32,18
+2030,Shaanxi ,SN,52,14
+2030,Shanghai ,SH,25,9
+2030,Sichuan ,SC,94,13
+2030,Tianjin ,TJ,10,7
+2030,Tibet,XZ,10,1
+2030,Xinjiang,XJ,65,15
+2030,Yunnan ,YN,213,16
+2030,Zhejiang ,ZJ,89,17
+2030,Chongqing ,CQ,61,17

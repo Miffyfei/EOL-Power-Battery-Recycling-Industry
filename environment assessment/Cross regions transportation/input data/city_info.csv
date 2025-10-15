@@ -1,0 +1,244 @@
+﻿city_code,city_name,province,cluster_id,CN-城市,CN-城市群
+440800,Zhanjiang City,Guangdong ,Beibu Gulf,湛江市,北部湾
+440900,Maoming City,Guangdong ,Beibu Gulf,茂名市,北部湾
+441700,Yangjiang City,Guangdong ,Beibu Gulf,阳江市,北部湾
+450100,Nanning City,Guangxi ,Beibu Gulf,南宁市,北部湾
+450500,Beihai City,Guangxi ,Beibu Gulf,北海市,北部湾
+450600,Fangchenggang City,Guangxi ,Beibu Gulf,防城港市,北部湾
+450700,Qinzhou City,Guangxi ,Beibu Gulf,钦州市,北部湾
+450900,Yulin City,Guangxi ,Beibu Gulf,玉林市,北部湾
+451400,Chongzuo City,Guangxi ,Beibu Gulf,崇左市,北部湾
+460100,Haikou City,Hainan ,Beibu Gulf,海口市,北部湾
+460400,Danzhou City,Hainan ,Beibu Gulf,儋州市,北部湾
+469007,Dongfang City,Hainan ,Beibu Gulf,东方市,北部湾
+469023,Chengmai County,Hainan ,Beibu Gulf,澄迈县,北部湾
+469024,Lingao County,Hainan ,Beibu Gulf,临高县,北部湾
+469026,Changjiang Li Autonomous County,Hainan ,Beibu Gulf,昌江黎族自治县,北部湾
+500000,Chongqing City,Chongqing,Chengdu - Chongqing Region,重庆市,成渝
+510100,Chengdu City,Sichuan ,Chengdu - Chongqing Region,成都市,成渝
+510600,Deyang City,Sichuan ,Chengdu - Chongqing Region,德阳市,成渝
+510700,Mianyang City,Sichuan ,Chengdu - Chongqing Region,绵阳市,成渝
+510800,Guangyuan City,Sichuan ,Chengdu - Chongqing Region,广元市,成渝
+510900,Suining City,Sichuan ,Chengdu - Chongqing Region,遂宁市,成渝
+511000,Neijiang City,Sichuan ,Chengdu - Chongqing Region,内江市,成渝
+511100,Leshan City,Sichuan ,Chengdu - Chongqing Region,乐山市,成渝
+511300,Nanchong City,Sichuan ,Chengdu - Chongqing Region,南充市,成渝
+511400,Meishan City,Sichuan ,Chengdu - Chongqing Region,眉山市,成渝
+511500,Yibin City,Sichuan ,Chengdu - Chongqing Region,宜宾市,成渝
+511600,Guang'an City,Sichuan ,Chengdu - Chongqing Region,广安市,成渝
+511700,Dazhou City,Sichuan ,Chengdu - Chongqing Region,达州市,成渝
+511800,Ya'an City,Sichuan ,Chengdu - Chongqing Region,雅安市,成渝
+511900,Bazhong City,Sichuan ,Chengdu - Chongqing Region,巴中市,成渝
+512000,Ziyang City,Sichuan ,Chengdu - Chongqing Region,资阳市,成渝
+530100,Kunming City,Yunnan ,Central Yunnan,昆明市,滇中
+530300,Qujing City,Yunnan ,Central Yunnan,曲靖市,滇中
+530400,Yuxi City,Yunnan ,Central Yunnan,玉溪市,滇中
+140800,Yuncheng City,Shanxi ,Guanzhong Plain,运城市,关中平原
+141000,Linfen City,Shanxi ,Guanzhong Plain,临汾市,关中平原
+610100,Xi'an City,Shaanxi ,Guanzhong Plain,西安市,关中平原
+610300,Baoji City,Shaanxi ,Guanzhong Plain,宝鸡市,关中平原
+610400,Xianyang City,Shaanxi ,Guanzhong Plain,咸阳市,关中平原
+610500,Weinan City,Shaanxi ,Guanzhong Plain,渭南市,关中平原
+611000,Shangluo City,Shaanxi ,Guanzhong Plain,商洛市,关中平原
+620500,Tianshui City,Gansu ,Guanzhong Plain,天水市,关中平原
+620800,Pingliang City,Gansu ,Guanzhong Plain,平凉市,关中平原
+621000,Qingyang City,Gansu ,Guanzhong Plain,庆阳市,关中平原
+220100,Changchun City,Jilin ,Harbin - Changchun Region,长春市,哈长
+220200,Jilin City,Jilin ,Harbin - Changchun Region,吉林市,哈长
+220300,Siping City,Jilin ,Harbin - Changchun Region,四平市,哈长
+220400,Liaoyuan City,Jilin ,Harbin - Changchun Region,辽源市,哈长
+220700,Songyuan City,Jilin ,Harbin - Changchun Region,松原市,哈长
+222400,Yanbian Korean Autonomous Prefecture,Jilin ,Harbin - Changchun Region,延边朝鲜族自治州,哈长
+230100,Harbin City,Heilongjiang ,Harbin - Changchun Region,哈尔滨市,哈长
+230200,Qiqihaer City,Heilongjiang ,Harbin - Changchun Region,齐齐哈尔市,哈长
+230600,Daqing City,Heilongjiang ,Harbin - Changchun Region,大庆市,哈长
+231000,Mudanjiang City,Heilongjiang ,Harbin - Changchun Region,牡丹江市,哈长
+231200,Suihua City,Heilongjiang ,Harbin - Changchun Region,绥化市,哈长
+150100,Hohhot City,Inner Mongolia,Hohhot - Baotou - Ordos - Yulin Region,呼和浩特市,呼包鄂榆
+150200,Baotou City,Inner Mongolia,Hohhot - Baotou - Ordos - Yulin Region,包头市,呼包鄂榆
+150600,Ordos City,Inner Mongolia,Hohhot - Baotou - Ordos - Yulin Region,鄂尔多斯市,呼包鄂榆
+610800,Yulin City,Shaanxi ,Hohhot - Baotou - Ordos - Yulin Region,榆林市,呼包鄂榆
+110000,Beijing,Beijing,Beijing - Tianjin - Hebei Region,北京市,京津冀
+120000,Tianjin City,Tianjin,Beijing - Tianjin - Hebei Region,天津市,京津冀
+130100,Shijiazhuang City,Hebei ,Beijing - Tianjin - Hebei Region,石家庄市,京津冀
+130200,Tangshan City,Hebei ,Beijing - Tianjin - Hebei Region,唐山市,京津冀
+130300,Qinhuangdao City,Hebei ,Beijing - Tianjin - Hebei Region,秦皇岛市,京津冀
+130400,Handan City,Hebei ,Beijing - Tianjin - Hebei Region,邯郸市,京津冀
+130500,Xingtai City,Hebei ,Beijing - Tianjin - Hebei Region,邢台市,京津冀
+130600,Baoding City,Hebei ,Beijing - Tianjin - Hebei Region,保定市,京津冀
+130700,Zhangjiakou City,Hebei ,Beijing - Tianjin - Hebei Region,张家口市,京津冀
+130800,Chengde City,Hebei ,Beijing - Tianjin - Hebei Region,承德市,京津冀
+130900,Cangzhou City,Hebei ,Beijing - Tianjin - Hebei Region,沧州市,京津冀
+131000,Langfang City,Hebei ,Beijing - Tianjin - Hebei Region,廊坊市,京津冀
+131100,Hengshui City,Hebei ,Beijing - Tianjin - Hebei Region,衡水市,京津冀
+620100,Lanzhou City,Gansu ,Lanzhou - Xining Region,兰州市,兰州—西宁
+620400,Baiyin City,Gansu ,Lanzhou - Xining Region,白银市,兰州—西宁
+621100,Dingxi City,Gansu ,Lanzhou - Xining Region,定西市,兰州—西宁
+630100,Xining City,Qinghai ,Lanzhou - Xining Region,西宁市,兰州—西宁
+630200,Haidong City,Qinghai ,Lanzhou - Xining Region,海东市,兰州—西宁
+210100,Shenyang City,Liaoning ,Central - Southern Liaoning,沈阳市,辽中南
+210200,Dalian City,Liaoning ,Central - Southern Liaoning,大连市,辽中南
+210300,Anshan City,Liaoning ,Central - Southern Liaoning,鞍山市,辽中南
+210400,Fushun City,Liaoning ,Central - Southern Liaoning,抚顺市,辽中南
+210500,Benxi City,Liaoning ,Central - Southern Liaoning,本溪市,辽中南
+210800,Yingkou City,Liaoning ,Central - Southern Liaoning,营口市,辽中南
+211000,Liaoyang City,Liaoning ,Central - Southern Liaoning,辽阳市,辽中南
+211100,Panjin City,Liaoning ,Central - Southern Liaoning,盘锦市,辽中南
+211200,Tieling City,Liaoning ,Central - Southern Liaoning,铁岭市,辽中南
+640100,Yinchuan City,Ningxia,Yellow River - adjacent Area in Ningxia,银川市,宁夏沿黄
+640200,Shizuishan City,Ningxia,Yellow River - adjacent Area in Ningxia,石嘴山市,宁夏沿黄
+640300,Wuzhong City,Ningxia,Yellow River - adjacent Area in Ningxia,吴忠市,宁夏沿黄
+640500,Zhongwei City,Ningxia,Yellow River - adjacent Area in Ningxia,中卫市,宁夏沿黄
+520100,Guiyang City,Guizhou ,Central Guizhou,贵阳市,黔中
+520300,Zunyi City,Guizhou ,Central Guizhou,遵义市,黔中
+520400,Anshun City,Guizhou ,Central Guizhou,安顺市,黔中
+520500,Bijie City,Guizhou ,Central Guizhou,毕节市,黔中
+370100,Jinan City,Shandong ,Shandong Peninsula,济南市,山东半岛
+370200,Qingdao City,Shandong ,Shandong Peninsula,青岛市,山东半岛
+370300,Zibo City,Shandong ,Shandong Peninsula,淄博市,山东半岛
+370400,Zaozhuang City,Shandong ,Shandong Peninsula,枣庄市,山东半岛
+370500,Dongying City,Shandong ,Shandong Peninsula,东营市,山东半岛
+370600,Yantai City,Shandong ,Shandong Peninsula,烟台市,山东半岛
+370700,Weifang City,Shandong ,Shandong Peninsula,潍坊市,山东半岛
+370900,Tai'an City,Shandong ,Shandong Peninsula,泰安市,山东半岛
+371000,Weihai City,Shandong ,Shandong Peninsula,威海市,山东半岛
+371100,Rizhao City,Shandong ,Shandong Peninsula,日照市,山东半岛
+371300,Linyi City,Shandong ,Shandong Peninsula,临沂市,山东半岛
+371400,Dezhou City,Shandong ,Shandong Peninsula,德州市,山东半岛
+371500,Liaocheng City,Shandong ,Shandong Peninsula,聊城市,山东半岛
+371700,Heze City,Shandong ,Shandong Peninsula,菏泽市,山东半岛
+140100,Taiyuan City,Shanxi ,Central Shanxi,太原市,山西中部
+140300,Yangquan City,Shanxi ,Central Shanxi,阳泉市,山西中部
+140700,Jinzhong City,Shanxi ,Central Shanxi,晋中市,山西中部
+140900,Xinzhou City,Shanxi ,Central Shanxi,忻州市,山西中部
+141100,Lvliang City,Shanxi ,Central Shanxi,吕梁市,山西中部
+650100,Urumqi City,Xinjiang,Northern Slope of Tianshan Mountains,乌鲁木齐市,天山北坡
+650200,Karamay City,Xinjiang,Northern Slope of Tianshan Mountains,克拉玛依市,天山北坡
+650400,Turpan City,Xinjiang,Northern Slope of Tianshan Mountains,吐鲁番市,天山北坡
+652300,Changji Hui Autonomous Prefecture,Xinjiang,Northern Slope of Tianshan Mountains,昌吉回族自治州,天山北坡
+652700,Bortala Mongol Autonomous Prefecture,Xinjiang,Northern Slope of Tianshan Mountains,博尔塔拉蒙古自治州,天山北坡
+654000,Yili Kazakh Autonomous Prefecture,Xinjiang,Northern Slope of Tianshan Mountains,伊犁哈萨克自治州,天山北坡
+654200,Tacheng Prefecture,Xinjiang,Northern Slope of Tianshan Mountains,塔城地区,天山北坡
+659001,Shihezi City,Xinjiang,Northern Slope of Tianshan Mountains,石河子市,天山北坡
+350100,Fuzhou City (Fujian Province),Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",福州市,粤闽浙沿海
+350200,Xiamen City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",厦门市,粤闽浙沿海
+350300,Putian City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",莆田市,粤闽浙沿海
+350500,Quanzhou City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",泉州市,粤闽浙沿海
+350600,Zhangzhou City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",漳州市,粤闽浙沿海
+350400,Sanming City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",三明,粤闽浙沿海
+350700,Nanping City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",南平,粤闽浙沿海
+350800,Longyan City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",龙岩,粤闽浙沿海
+330300,Wenzhou City,Zhejiang ,"Coastal Area of Guangdong, Fujian and Zhejiang",温州,粤闽浙沿海
+331100,Lishui City,Zhejiang ,"Coastal Area of Guangdong, Fujian and Zhejiang",丽水,粤闽浙沿海
+330800,Quzhou City,Zhejiang ,"Coastal Area of Guangdong, Fujian and Zhejiang",衢州,粤闽浙沿海
+361100,Shangrao City,Jiangxi ,"Coastal Area of Guangdong, Fujian and Zhejiang",上饶,粤闽浙沿海
+360600,Yingtan City,Jiangxi ,"Coastal Area of Guangdong, Fujian and Zhejiang",鹰潭,粤闽浙沿海
+361000,Fuzhou City,Jiangxi ,"Coastal Area of Guangdong, Fujian and Zhejiang",抚州,粤闽浙沿海
+360700,Ganzhou City,Jiangxi ,"Coastal Area of Guangdong, Fujian and Zhejiang",赣州,粤闽浙沿海
+441400,Meizhou City,Guangdong ,"Coastal Area of Guangdong, Fujian and Zhejiang",梅州,粤闽浙沿海
+350900,Ningde City,Fujian ,"Coastal Area of Guangdong, Fujian and Zhejiang",宁德市,粤闽浙沿海
+440500,Shantou City,Guangdong ,"Coastal Area of Guangdong, Fujian and Zhejiang",汕头市,粤闽浙沿海
+445100,Chaozhou City,Guangdong ,"Coastal Area of Guangdong, Fujian and Zhejiang",潮州市,粤闽浙沿海
+445200,Jieyang City,Guangdong ,"Coastal Area of Guangdong, Fujian and Zhejiang",揭阳市,粤闽浙沿海
+360100,Nanchang City,Jiangxi ,Middle Reaches of the Yangtze River,南昌市,长江中游
+360300,Pingxiang City,Jiangxi ,Middle Reaches of the Yangtze River,萍乡市,长江中游
+360400,Jiujiang City,Jiangxi ,Middle Reaches of the Yangtze River,九江市,长江中游
+360500,Xinyu City,Jiangxi ,Middle Reaches of the Yangtze River,新余市,长江中游
+360600,Yingtan City,Jiangxi ,Middle Reaches of the Yangtze River,鹰潭市,长江中游
+360200,Jingdezhen City,Jiangxi ,Middle Reaches of the Yangtze River,景德镇,长江中游
+360800,Ji'an City,Jiangxi ,Middle Reaches of the Yangtze River,吉安市,长江中游
+360900,Yichun City,Jiangxi ,Middle Reaches of the Yangtze River,宜春市,长江中游
+361000,Fuzhou City (Jiangxi Province),Jiangxi ,Middle Reaches of the Yangtze River,抚州市,长江中游
+420100,Wuhan City,Hubei ,Middle Reaches of the Yangtze River,武汉市,长江中游
+420200,Huangshi City,Hubei ,Middle Reaches of the Yangtze River,黄石市,长江中游
+420500,Yichang City,Hubei ,Middle Reaches of the Yangtze River,宜昌市,长江中游
+420600,Xiangyang City,Hubei ,Middle Reaches of the Yangtze River,襄阳市,长江中游
+420700,Ezhou City,Hubei ,Middle Reaches of the Yangtze River,鄂州市,长江中游
+420800,Jingmen City,Hubei ,Middle Reaches of the Yangtze River,荆门市,长江中游
+420900,Xiaogan City,Hubei ,Middle Reaches of the Yangtze River,孝感市,长江中游
+421000,Jingzhou City,Hubei ,Middle Reaches of the Yangtze River,荆州市,长江中游
+421100,Huanggang City,Hubei ,Middle Reaches of the Yangtze River,黄冈市,长江中游
+421200,Xianning City,Hubei ,Middle Reaches of the Yangtze River,咸宁市,长江中游
+421300,Suizhou City,Hubei ,Middle Reaches of the Yangtze River,随州市,长江中游
+429004,Xiantao City,Hubei ,Middle Reaches of the Yangtze River,仙桃市,长江中游
+429005,Qianjiang City,Hubei ,Middle Reaches of the Yangtze River,潜江市,长江中游
+429006,Tianmen City,Hubei ,Middle Reaches of the Yangtze River,天门市,长江中游
+430100,Changsha City,Hunan ,Middle Reaches of the Yangtze River,长沙市,长江中游
+430200,Zhuzhou City,Hunan ,Middle Reaches of the Yangtze River,株洲市,长江中游
+430300,Xiangtan City,Hunan ,Middle Reaches of the Yangtze River,湘潭市,长江中游
+430400,Hengyang City,Hunan ,Middle Reaches of the Yangtze River,衡阳市,长江中游
+430500,Shaoyang City,Hunan ,Middle Reaches of the Yangtze River,邵阳市,长江中游
+430600,Yueyang City,Hunan ,Middle Reaches of the Yangtze River,岳阳市,长江中游
+430700,Changde City,Hunan ,Middle Reaches of the Yangtze River,常德市,长江中游
+430800,Zhangjiajie City,Hunan ,Middle Reaches of the Yangtze River,张家界市,长江中游
+430900,Yiyang City,Hunan ,Middle Reaches of the Yangtze River,益阳市,长江中游
+431000,Chenzhou City,Hunan ,Middle Reaches of the Yangtze River,郴州市,长江中游
+431100,Yongzhou City,Hunan ,Middle Reaches of the Yangtze River,永州市,长江中游
+431200,Huaihua City,Hunan ,Middle Reaches of the Yangtze River,怀化市,长江中游
+431300,Loudi City,Hunan ,Middle Reaches of the Yangtze River,娄底市,长江中游
+433100,Xiangxi Tujia and Miao Autonomous Prefecture,Hunan ,Middle Reaches of the Yangtze River,湘西土家族苗族自治州,长江中游
+310000,Shanghai City,Shanghai,Yangtze River Delta Region,上海市,长三角
+320100,Nanjing City,Jiangsu ,Yangtze River Delta Region,南京市,长三角
+320200,Wuxi City,Jiangsu ,Yangtze River Delta Region,无锡市,长三角
+320400,Changzhou City,Jiangsu ,Yangtze River Delta Region,常州市,长三角
+320500,Suzhou City,Jiangsu ,Yangtze River Delta Region,苏州市,长三角
+320600,Nantong City,Jiangsu ,Yangtze River Delta Region,南通市,长三角
+320900,Yancheng City,Jiangsu ,Yangtze River Delta Region,盐城市,长三角
+321000,Yangzhou City,Jiangsu ,Yangtze River Delta Region,扬州市,长三角
+321100,Zhenjiang City,Jiangsu ,Yangtze River Delta Region,镇江市,长三角
+321200,Taizhou City,Jiangsu ,Yangtze River Delta Region,泰州市,长三角
+330100,Hangzhou City,Zhejiang ,Yangtze River Delta Region,杭州市,长三角
+330200,Ningbo City,Zhejiang ,Yangtze River Delta Region,宁波市,长三角
+330300,Wenzhou City,Zhejiang ,Yangtze River Delta Region,温州市,长三角
+330400,Jiaxing City,Zhejiang ,Yangtze River Delta Region,嘉兴市,长三角
+330500,Huzhou City,Zhejiang ,Yangtze River Delta Region,湖州市,长三角
+330600,Shaoxing City,Zhejiang ,Yangtze River Delta Region,绍兴市,长三角
+330700,Jinhua City,Zhejiang ,Yangtze River Delta Region,金华市,长三角
+330900,Zhoushan City,Zhejiang ,Yangtze River Delta Region,舟山市,长三角
+331000,Taizhou City,Zhejiang ,Yangtze River Delta Region,台州市,长三角
+340100,Hefei City,Anhui ,Yangtze River Delta Region,合肥市,长三角
+340200,Wuhu City,Anhui ,Yangtze River Delta Region,芜湖市,长三角
+340500,Ma'anshan City,Anhui ,Yangtze River Delta Region,马鞍山市,长三角
+340700,Tongling City,Anhui ,Yangtze River Delta Region,铜陵市,长三角
+340800,Anqing City,Anhui ,Yangtze River Delta Region,安庆市,长三角
+341100,Chuzhou City,Anhui ,Yangtze River Delta Region,滁州市,长三角
+341700,Chizhou City,Anhui ,Yangtze River Delta Region,池州市,长三角
+341800,Xuancheng City,Anhui ,Yangtze River Delta,宣城市,长三角
+440300,Shenzhen City,Guangdong ,Pearl River Delta,深圳市,珠三角
+440400,Zhuhai City,Guangdong ,Pearl River Delta,珠海市,珠三角
+440600,Foshan City,Guangdong ,Pearl River Delta,佛山市,珠三角
+440700,Jiangmen City,Guangdong ,Pearl River Delta,江门市,珠三角
+441200,Zhaoqing City,Guangdong ,Pearl River Delta,肇庆市,珠三角
+441300,Huizhou City,Guangdong ,Pearl River Delta,惠州市,珠三角
+441900,Dongguan City,Guangdong ,Pearl River Delta,东莞市,珠三角
+442000,Zhongshan City,Guangdong ,Pearl River Delta,中山市,珠三角
+410100,Zhengzhou City,Henan ,Central Plains,郑州,中原
+410200,Kaifeng City,Henan ,Central Plains,开封,中原
+410300,Luoyang City,Henan ,Central Plains,洛阳,中原
+411300,Nanyang City,Henan ,Central Plains,南阳,中原
+410500,Anyang City,Henan ,Central Plains,安阳,中原
+411400,Shangqiu City,Henan ,Central Plains,商丘,中原
+410700,Xinxiang City,Henan ,Central Plains,新乡,中原
+410400,Pingdingshan City,Henan ,Central Plains,平顶山,中原
+411000,Xuchang City,Henan ,Central Plains,许昌,中原
+411600,Zhoukou City,Henan ,Central Plains,周口,中原
+410800,Jiaozuo City,Henan ,Central Plains,焦作,中原
+411500,Xinyang City,Henan ,Central Plains,信阳,中原
+411700,Zhumadian City,Henan ,Central Plains,驻马店,中原
+410600,Hebi City,Henan ,Central Plains,鹤壁,中原
+411100,Luohe City,Henan ,Central Plains,漯河,中原
+410900,Puyang City,Henan ,Central Plains,濮阳,中原
+411200,Sanmenxia City,Henan ,Central Plains,三门峡,中原
+419001,Jiyuan City,Henan ,Central Plains,济源市,中原
+140400,Changzhi City,Shanxi ,Central Plains,长治,中原
+140500,Jincheng City,Shanxi ,Central Plains,晋城,中原
+140800,Yuncheng City,Shanxi ,Central Plains,运城,中原
+130500,Xingtai City,Hebei ,Central Plains,邢台,中原
+130400,Handan City,Hebei ,Central Plains,邯郸,中原
+371500,Liaocheng City,Shandong ,Central Plains,聊城,中原
+371700,Heze City,Shandong ,Central Plains,菏泽,中原
+340600,Huaibei City,Anhui ,Central Plains,淮北,中原
+340300,Bengbu City,Anhui ,Central Plains,蚌埠,中原
+341300,Suzhou City (Anhui),Anhui ,Central Plains,宿州,中原
+341200,Fuyang City,Anhui ,Central Plains,阜阳,中原
+341600,Bozhou City,Anhui ,Central Plains,亳州,中原

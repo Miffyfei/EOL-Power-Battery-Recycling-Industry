@@ -1,0 +1,140 @@
+﻿Administrative Division,province,Abbreviation,neighbor_province
+北京市,Beijing ,BJ,Hebei
+北京市,Beijing ,BJ,Tianjin
+天津市,Tianjin ,TJ,Hebei
+天津市,Tianjin ,TJ,Beijing
+河北省,Hebei ,HE,Liaoning
+河北省,Hebei ,HE,Inner Mongolia
+河北省,Hebei ,HE,Shanxi
+河北省,Hebei ,HE,Henan
+河北省,Hebei ,HE,Shandong
+河北省,Hebei ,HE,Beijing
+河北省,Hebei ,HE,Beijing
+山西省,Shanxi ,SX,Inner Mongolia
+山西省,Shanxi ,SX,Henan
+山西省,Shanxi ,SX,Hebei
+山西省,Shanxi ,SX,Shaanxi
+内蒙古自治区,Inner Mongolia,NM,Heilongjiang
+内蒙古自治区,Inner Mongolia,NM,Jilin
+内蒙古自治区,Inner Mongolia,NM,Liaoning
+内蒙古自治区,Inner Mongolia,NM,Hebei
+内蒙古自治区,Inner Mongolia,NM,Shanxi
+内蒙古自治区,Inner Mongolia,NM,Shaanxi
+内蒙古自治区,Inner Mongolia,NM,Ningxia
+内蒙古自治区,Inner Mongolia,NM,Gansu
+辽宁省,Liaoning ,LN,Jilin
+辽宁省,Liaoning ,LN,Inner Mongolia
+辽宁省,Liaoning ,LN,Hebei
+辽宁省,Liaoning ,LN,Shandong 
+吉林省,Jilin ,JL,Heilongjiang
+吉林省,Jilin ,JL,Liaoning
+吉林省,Jilin ,JL,Inner Mongolia
+黑龙江省,Heilongjiang ,HL,Jilin
+黑龙江省,Heilongjiang ,HL,Inner Mongolia
+上海市,Shanghai ,SH,Jiangsu
+上海市,Shanghai ,SH,Zhejiang
+江苏省,Jiangsu ,JS,Shandong
+江苏省,Jiangsu ,JS,Anhui
+江苏省,Jiangsu ,JS,Zhejiang
+江苏省,Jiangsu ,JS,Shanghai
+浙江省,Zhejiang ,ZJ,Jiangsu
+浙江省,Zhejiang ,ZJ,Anhui
+浙江省,Zhejiang ,ZJ,Jiangxi
+浙江省,Zhejiang ,ZJ,Fujian
+浙江省,Zhejiang ,ZJ,Shanghai
+安徽省,Anhui ,AH,Shandong
+安徽省,Anhui ,AH,Jiangsu
+安徽省,Anhui ,AH,Zhejiang
+安徽省,Anhui ,AH,Jiangxi
+安徽省,Anhui ,AH,Hubei
+安徽省,Anhui ,AH,Henan
+福建省,Fujian ,FJ,Zhejiang
+福建省,Fujian ,FJ,Guangdong
+福建省,Fujian ,FJ,Jiangxi
+江西省,Jiangxi ,JX,Anhui
+江西省,Jiangxi ,JX,Zhejiang
+江西省,Jiangxi ,JX,Fujian
+江西省,Jiangxi ,JX,Guangdong
+江西省,Jiangxi ,JX,Hunan
+江西省,Jiangxi ,JX,Hubei
+山东省,Shandong ,SD,Hebei
+山东省,Shandong ,SD,Henan
+山东省,Shandong ,SD,Anhui
+山东省,Shandong ,SD,Jiangsu
+河南省,Henan ,HA,Hebei
+河南省,Henan ,HA,Shanxi
+河南省,Henan ,HA,Shaanxi
+河南省,Henan ,HA,Hubei
+河南省,Henan ,HA,Anhui
+河南省,Henan ,HA,Shandong
+湖北省,Hubei ,HB,Henan
+湖北省,Hubei ,HB,Shaanxi
+湖北省,Hubei ,HB,Chongqing
+湖北省,Hubei ,HB,Hunan
+湖北省,Hubei ,HB,Jiangxi
+湖北省,Hubei ,HB,Anhui
+湖南省,Hunan ,HN,Hubei
+湖南省,Hunan ,HN,Jiangxi
+湖南省,Hunan ,HN,Guangdong
+湖南省,Hunan ,HN,Guangxi
+湖南省,Hunan ,HN,Guizhou
+湖南省,Hunan ,HN,Chongqing
+广东省,Guangdong ,GD,Fujian
+广东省,Guangdong ,GD,Jiangxi
+广东省,Guangdong ,GD,Hunan
+广东省,Guangdong ,GD,Guangxi
+广东省,Guangdong ,GD,Hainan 
+广西壮族自治区,Guangxi,GX,Guangdong
+广西壮族自治区,Guangxi,GX,Hunan
+广西壮族自治区,Guangxi,GX,Guizhou
+广西壮族自治区,Guangxi,GX,Yunnan
+海南省,Hainan ,HI, Guangdong
+重庆市,Chongqing ,CQ,Hubei
+重庆市,Chongqing ,CQ,Hunan
+重庆市,Chongqing ,CQ,Guizhou
+重庆市,Chongqing ,CQ,Sichuan
+重庆市,Chongqing ,CQ,Shaanxi
+四川省,Sichuan ,SC,Qinghai
+四川省,Sichuan ,SC,Gansu
+四川省,Sichuan ,SC,Shaanxi
+四川省,Sichuan ,SC,Chongqing
+四川省,Sichuan ,SC,Guizhou
+四川省,Sichuan ,SC,Qinghai
+四川省,Sichuan ,SC,Tibet
+贵州省,Guizhou ,GZ,Chongqing
+云南省,Yunnan ,YN,Sichuan
+西藏自治区,Tibet,XZ,Xinjiang
+陕西省,Shaanxi ,SN,Inner Mongolia
+贵州省,Guizhou ,GZ,Hunan
+云南省,Yunnan ,YN,Guizhou
+西藏自治区,Tibet,XZ,Qinghai
+陕西省,Shaanxi ,SN,Ningxia
+贵州省,Guizhou ,GZ,Yunnan
+贵州省,Guizhou ,GZ,Sichuan
+云南省,Yunnan ,YN,Tibet
+西藏自治区,Tibet,XZ,Yunnan
+陕西省,Shaanxi ,SN,Henan
+贵州省,Guizhou ,GZ,Guangxi
+云南省,Yunnan ,YN,Guangxi
+西藏自治区,Tibet,XZ,Sichuan
+陕西省,Shaanxi ,SN,Hubei
+陕西省,Shaanxi ,SN,Chongqing
+陕西省,Shaanxi ,SN,Shanxi
+陕西省,Shaanxi ,SN,Gansu
+陕西省,Shaanxi ,SN,Sichuan
+甘肃省,Gansu ,GS,Inner Mongolia
+青海省,Qinghai ,QH,Gansu
+宁夏回族自治区,Ningxia,NX,Inner Mongolia
+新疆维吾尔自治区,Xinjiang,XJ,Gansu
+甘肃省,Gansu ,GS,Ningxia
+青海省,Qinghai ,QH,Sichuan
+宁夏回族自治区,Ningxia,NX,Gansu
+新疆维吾尔自治区,Xinjiang,XJ,Qinghai
+甘肃省,Gansu ,GS,Sichuan
+甘肃省,Gansu ,GS,Qinghai
+甘肃省,Gansu ,GS,Xinjiang
+甘肃省,Gansu ,GS,Shaanxi
+青海省,Qinghai ,QH,Xinjiang
+青海省,Qinghai ,QH,Tibet
+宁夏回族自治区,Ningxia,NX,Shaanxi
+新疆维吾尔自治区,Xinjiang,XJ,Tibet

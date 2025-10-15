@@ -1,0 +1,365 @@
+﻿CN_CITY,TCN_CITY,city_code,city_name,province
+北京,北京市,110000,Beijing,Beijing
+天津,天津市,120000,Tianjin City,Tianjin
+石家庄,石家庄市,130100,Shijiazhuang City,Hebei 
+唐山,唐山市,130200,Tangshan City,Hebei 
+秦皇岛,秦皇岛市,130300,Qinhuangdao City,Hebei 
+邯郸,邯郸市,130400,Handan City,Hebei 
+邢台,邢台市,130500,Xingtai City,Hebei 
+保定,保定市,130600,Baoding City,Hebei 
+张家口,张家口市,130700,Zhangjiakou City,Hebei 
+承德,承德市,130800,Chengde City,Hebei 
+沧州,沧州市,130900,Cangzhou City,Hebei 
+廊坊,廊坊市,131000,Langfang City,Hebei 
+衡水,衡水市,131100,Hengshui City,Hebei 
+太原,太原市,140100,Taiyuan City,Shanxi 
+大同,大同市,140200,Datong City,Shanxi 
+阳泉,阳泉市,140300,Yangquan City,Shanxi 
+长治,长治市,140400,Changzhi City,Shanxi 
+晋城,晋城市,140500,Jincheng City,Shanxi 
+朔州,朔州市,140600,Shuozhou City,Shanxi 
+晋中,晋中市,140700,Jinzhong City,Shanxi 
+运城,运城市,140800,Yuncheng City,Shanxi 
+忻州,忻州市,140900,Xinzhou City,Shanxi 
+临汾,临汾市,141000,Linfen City,Shanxi 
+吕梁,吕梁市,141100,Lvliang City,Shanxi 
+呼和浩特,呼和浩特市,150100,Hohhot City,Inner Mongolia
+包头,包头市,150200,Baotou City,Inner Mongolia
+乌海,乌海市,150300,Wuhai City,Inner Mongolia
+赤峰,赤峰市,150400,Chifeng City,Inner Mongolia
+通辽,通辽市,150500,Tongliao City,Inner Mongolia
+鄂尔多斯,鄂尔多斯市,150600,Ordos City,Inner Mongolia
+呼伦贝尔,呼伦贝尔市,150700,Hulunbuir City,Inner Mongolia
+巴彦淖尔,巴彦淖尔市,150800,Bayannur City,Inner Mongolia
+乌兰察布,乌兰察布市,150900,Ulanqab City,Inner Mongolia
+兴安盟,兴安盟,152200,Xing'an League,Inner Mongolia
+锡林郭勒,锡林郭勒盟,152500,Xilingol League,Inner Mongolia
+阿拉善盟,阿拉善盟,152900,Alxa League,Inner Mongolia
+沈阳,沈阳市,210100,Shenyang City,Liaoning 
+大连,大连市,210200,Dalian City,Liaoning 
+鞍山,鞍山市,210300,Anshan City,Liaoning 
+抚顺,抚顺市,210400,Fushun City,Liaoning 
+本溪,本溪市,210500,Benxi City,Liaoning 
+丹东,丹东市,210600,Dandong City,Liaoning 
+锦州,锦州市,210700,Jinzhou City,Liaoning 
+营口,营口市,210800,Yingkou City,Liaoning 
+阜新,阜新市,210900,Fuxin City,Liaoning 
+辽阳,辽阳市,211000,Liaoyang City,Liaoning 
+盘锦,盘锦市,211100,Panjin City,Liaoning 
+铁岭,铁岭市,211200,Tieling City,Liaoning 
+朝阳,朝阳市,211300,Chaoyang City,Liaoning 
+葫芦岛,葫芦岛市,211400,Huludao City,Liaoning 
+长春,长春市,220100,Changchun City,Jilin 
+吉林市,吉林市,220200,Jilin City,Jilin 
+四平,四平市,220300,Siping City,Jilin 
+辽源,辽源市,220400,Liaoyuan City,Jilin 
+通化,通化市,220500,Tonghua City,Jilin 
+白山,白山市,220600,Baishan City,Jilin 
+松原,松原市,220700,Songyuan City,Jilin 
+白城,白城市,220800,Baicheng City,Jilin 
+延边,延边朝鲜族自治州,222400,Yanbian Korean Autonomous Prefecture,Jilin 
+哈尔滨,哈尔滨市,230100,Harbin City,Heilongjiang 
+齐齐哈尔,齐齐哈尔市,230200,Qiqihar City,Heilongjiang 
+鸡西,鸡西市,230300,Jixi City,Heilongjiang 
+鹤岗,鹤岗市,230400,Hegang City,Heilongjiang 
+双鸭山,双鸭山市,230500,Shuangyashan City,Heilongjiang 
+大庆,大庆市,230600,Daqing City,Heilongjiang 
+伊春,伊春市,230700,Yichun City,Heilongjiang 
+佳木斯,佳木斯市,230800,Jiamusi City,Heilongjiang 
+七台河,七台河市,230900,Qitaihe City,Heilongjiang 
+牡丹江,牡丹江市,231000,Mudanjiang City,Heilongjiang 
+黑河,黑河市,231100,Heihe City,Heilongjiang 
+绥化,绥化市,231200,Suihua City,Heilongjiang 
+大兴安岭,大兴安岭地区,232700,Daxing'anling Prefecture,Heilongjiang 
+上海,上海市,310000,Shanghai City,Shanghai
+南京,南京市,320100,Nanjing City,Jiangsu 
+无锡,无锡市,320200,Wuxi City,Jiangsu 
+徐州,徐州市,320300,Xuzhou City,Jiangsu 
+常州,常州市,320400,Changzhou City,Jiangsu 
+苏州,苏州市,320500,Suzhou City (Jiangsu),Jiangsu 
+南通,南通市,320600,Nantong City,Jiangsu 
+连云港,连云港市,320700,Lianyungang City,Jiangsu 
+淮安,淮安市,320800,Huai'an City,Jiangsu 
+盐城,盐城市,320900,Yancheng City,Jiangsu 
+扬州,扬州市,321000,Yangzhou City,Jiangsu 
+镇江,镇江市,321100,Zhenjiang City,Jiangsu 
+泰州,泰州市,321200,Taizhou City (Jiangsu),Jiangsu 
+宿迁,宿迁市,321300,Suqian City,Jiangsu 
+杭州,杭州市,330100,Hangzhou City,Zhejiang 
+宁波,宁波市,330200,Ningbo City,Zhejiang 
+温州,温州市,330300,Wenzhou City,Zhejiang 
+嘉兴,嘉兴市,330400,Jiaxing City,Zhejiang 
+湖州,湖州市,330500,Huzhou City,Zhejiang 
+绍兴,绍兴市,330600,Shaoxing City,Zhejiang 
+金华,金华市,330700,Jinhua City,Zhejiang 
+衢州,衢州市,330800,Quzhou City,Zhejiang 
+舟山,舟山市,330900,Zhoushan City,Zhejiang 
+台州,台州市,331000,Taizhou City,Zhejiang 
+丽水,丽水市,331100,Lishui City,Zhejiang 
+合肥,合肥市,340100,Hefei City,Anhui 
+芜湖,芜湖市,340200,Wuhu City,Anhui 
+蚌埠,蚌埠市,340300,Bengbu City,Anhui 
+淮南,淮南市,340400,Huainan City,Anhui 
+马鞍山,马鞍山市,340500,Ma'anshan City,Anhui 
+淮北,淮北市,340600,Huaibei City,Anhui 
+铜陵,铜陵市,340700,Tongling City,Anhui 
+安庆,安庆市,340800,Anqing City,Anhui 
+黄山,黄山市,341000,Huangshan City,Anhui 
+滁州,滁州市,341100,Chuzhou City,Anhui 
+阜阳,阜阳市,341200,Fuyang City,Anhui 
+宿州,宿州市,341300,Suzhou City (Anhui),Anhui 
+六安,六安市,341500,Lu'an City,Anhui 
+亳州,亳州市,341600,Bozhou City,Anhui 
+池州,池州市,341700,Chizhou City,Anhui 
+宣城,宣城市,341800,Xuancheng City,Anhui 
+福州,福州市,350100,Fuzhou City (Fujian),Fujian 
+厦门,厦门市,350200,Xiamen City,Fujian 
+莆田,莆田市,350300,Putian City,Fujian 
+三明,三明市,350400,Sanming City,Fujian 
+泉州,泉州市,350500,Quanzhou City,Fujian 
+漳州,漳州市,350600,Zhangzhou City,Fujian 
+南平,南平市,350700,Nanping City,Fujian 
+龙岩,龙岩市,350800,Longyan City,Fujian 
+宁德,宁德市,350900,Ningde City,Fujian 
+南昌,南昌市,360100,Nanchang City,Jiangxi 
+景德镇,景德镇市,360200,Jingdezhen City,Jiangxi 
+萍乡,萍乡市,360300,Pingxiang City,Jiangxi 
+九江,九江市,360400,Jiujiang City,Jiangxi 
+新余,新余市,360500,Xinyu City,Jiangxi 
+鹰潭,鹰潭市,360600,Yingtan City,Jiangxi 
+赣州,赣州市,360700,Ganzhou City,Jiangxi 
+吉安,吉安市,360800,Ji'an City,Jiangxi 
+宜春,宜春市,360900,Yichun City (Jiangxi),Jiangxi 
+抚州,抚州市,361000,Fuzhou City,Jiangxi 
+上饶,上饶市,361100,Shangrao City,Jiangxi 
+济南,济南市,370100,Jinan City,Shandong 
+青岛,青岛市,370200,Qingdao City,Shandong 
+淄博,淄博市,370300,Zibo City,Shandong 
+枣庄,枣庄市,370400,Zaozhuang City,Shandong 
+东营,东营市,370500,Dongying City,Shandong 
+烟台,烟台市,370600,Yantai City,Shandong 
+潍坊,潍坊市,370700,Weifang City,Shandong 
+济宁,济宁市,370800,Jining City,Shandong 
+泰安,泰安市,370900,Tai'an City,Shandong 
+威海,威海市,371000,Weihai City,Shandong 
+日照,日照市,371100,Rizhao City,Shandong 
+临沂,临沂市,371300,Linyi City,Shandong 
+德州,德州市,371400,Dezhou City,Shandong 
+聊城,聊城市,371500,Liaocheng City,Shandong 
+滨州,滨州市,371600,Binzhou City,Shandong 
+菏泽,菏泽市,371700,Heze City,Shandong 
+郑州,郑州市,410100,Zhengzhou City,Henan 
+开封,开封市,410200,Kaifeng City,Henan 
+洛阳,洛阳市,410300,Luoyang City,Henan 
+平顶山,平顶山市,410400,Pingdingshan City,Henan 
+安阳,安阳市,410500,Anyang City,Henan 
+鹤壁,鹤壁市,410600,Hebi City,Henan 
+新乡,新乡市,410700,Xinxiang City,Henan 
+焦作,焦作市,410800,Jiaozuo City,Henan 
+濮阳,濮阳市,410900,Puyang City,Henan 
+许昌,许昌市,411000,Xuchang City,Henan 
+漯河,漯河市,411100,Luohe City,Henan 
+三门峡,三门峡市,411200,Sanmenxia City,Henan 
+南阳,南阳市,411300,Nanyang City,Henan 
+商丘,商丘市,411400,Shangqiu City,Henan 
+信阳,信阳市,411500,Xinyang City,Henan 
+周口,周口市,411600,Zhoukou City,Henan 
+驻马店,驻马店市,411700,Zhumadian City,Henan 
+济源市,济源市,419001,Jiyuan City,Henan 
+武汉,武汉市,420100,Wuhan City,Hubei 
+黄石,黄石市,420200,Huangshi City,Hubei 
+十堰,十堰市,420300,Shiyan City,Hubei 
+宜昌,宜昌市,420500,Yichang City,Hubei 
+襄阳,襄阳市,420600,Xiangyang City,Hubei 
+鄂州,鄂州市,420700,Ezhou City,Hubei 
+荆门,荆门市,420800,Jingmen City,Hubei 
+孝感,孝感市,420900,Xiaogan City,Hubei 
+荆州,荆州市,421000,Jingzhou City,Hubei 
+黄冈,黄冈市,421100,Huanggang City,Hubei 
+咸宁,咸宁市,421200,Xianning City,Hubei 
+随州,随州市,421300,Suizhou City,Hubei 
+恩施,恩施土家族苗族自治州,422800,Enshi Tujia and Miao Autonomous Prefecture,Hubei 
+仙桃,仙桃市,429004,Xiantao City,Hubei 
+潜江市,潜江市,429005,Qianjiang City,Hubei 
+天门市,天门市,429006,Tianmen City,Hubei 
+神农架林区,神农架林区,429021,Shennongjia Forestry District,Hubei 
+长沙,长沙市,430100,Changsha City,Hunan 
+株洲,株洲市,430200,Zhuzhou City,Hunan 
+湘潭,湘潭市,430300,Xiangtan City,Hunan 
+衡阳,衡阳市,430400,Hengyang City,Hunan 
+邵阳,邵阳市,430500,Shaoyang City,Hunan 
+岳阳,岳阳市,430600,Yueyang City,Hunan 
+常德,常德市,430700,Changde City,Hunan 
+张家界,张家界市,430800,Zhangjiajie City,Hunan 
+益阳,益阳市,430900,Yiyang City,Hunan 
+郴州,郴州市,431000,Chenzhou City,Hunan 
+永州,永州市,431100,Yongzhou City,Hunan 
+怀化,怀化市,431200,Huaihua City,Hunan 
+娄底,娄底市,431300,Loudi City,Hunan 
+湘西,湘西土家族苗族自治州,433100,Xiangxi Tujia and Miao Autonomous Prefecture,Hunan 
+广州,广州市,440100,Guangzhou City,Guangdong 
+韶关,韶关市,440200,Shaoguan City,Guangdong 
+深圳,深圳市,440300,Shenzhen City,Guangdong 
+珠海,珠海市,440400,Zhuhai City,Guangdong 
+汕头,汕头市,440500,Shantou City,Guangdong 
+佛山,佛山市,440600,Foshan City,Guangdong 
+江门,江门市,440700,Jiangmen City,Guangdong 
+湛江,湛江市,440800,Zhanjiang City,Guangdong 
+茂名,茂名市,440900,Maoming City,Guangdong 
+肇庆,肇庆市,441200,Zhaoqing City,Guangdong 
+惠州,惠州市,441300,Huizhou City,Guangdong 
+梅州,梅州市,441400,Meizhou City,Guangdong 
+汕尾,汕尾市,441500,Shanwei City,Guangdong 
+河源,河源市,441600,Heyuan City,Guangdong 
+阳江,阳江市,441700,Yangjiang City,Guangdong 
+清远,清远市,441800,Qingyuan City,Guangdong 
+东莞,东莞市,441900,Dongguan City,Guangdong 
+中山,中山市,442000,Zhongshan City,Guangdong 
+潮州,潮州市,445100,Chaozhou City,Guangdong 
+揭阳,揭阳市,445200,Jieyang City,Guangdong 
+云浮,云浮市,445300,Yunfu City,Guangdong 
+南宁,南宁市,450100,Nanning City,Guangxi 
+柳州,柳州市,450200,Liuzhou City,Guangxi 
+桂林,桂林市,450300,Guilin City,Guangxi 
+梧州,梧州市,450400,Wuzhou City,Guangxi 
+北海,北海市,450500,Beihai City,Guangxi 
+防城港,防城港市,450600,Fangchenggang City,Guangxi 
+钦州,钦州市,450700,Qinzhou City,Guangxi 
+贵港,贵港市,450800,Guigang City,Guangxi 
+玉林,玉林市,450900,Yulin City (Guangxi）,Guangxi 
+百色,百色市,451000,Baise City,Guangxi 
+贺州,贺州市,451100,Hezhou City,Guangxi 
+河池,河池市,451200,Hechi City,Guangxi 
+来宾,来宾市,451300,Laibin City,Guangxi 
+崇左,崇左市,451400,Chongzuo City,Guangxi 
+海口,海口市,460100,Haikou City,Hainan 
+三亚,三亚市,460200,Sanya City,Hainan 
+三沙,三沙市,460300,Sansha City,Hainan 
+儋州,儋州市,460400,Danzhou City,Hainan 
+五指山市,五指山市,469001,Wuzhishan City,Hainan 
+琼海市,琼海市,469002,Qionghai City,Hainan 
+文昌市,文昌市,469005,Wenchang City,Hainan 
+万宁市,万宁市,469006,Wanning City,Hainan 
+东方市,东方市,469007,Dongfang City,Hainan 
+定安县,定安县,469021,Ding'an County,Hainan 
+屯昌县,屯昌县,469022,Tunchang County,Hainan 
+澄迈县,澄迈县,469023,Chengmai County,Hainan 
+临高县,临高县,469024,Lingao County,Hainan 
+白沙黎族自治县,白沙黎族自治县,469025,Baisha Li Autonomous County,Hainan 
+昌江黎族自治县,昌江黎族自治县,469026,Changjiang Li Autonomous County,Hainan 
+乐东黎族自治县,乐东黎族自治县,469027,Ledong Li Autonomous County,Hainan 
+陵水黎族自治县,陵水黎族自治县,469028,Lingshui Li Autonomous County,Hainan 
+保亭黎族苗族自治县,保亭黎族苗族自治县,469029,Baoting Li and Miao Autonomous County,Hainan 
+琼中黎族苗族自治县,琼中黎族苗族自治县,469030,Qiongzhong Li and Miao Autonomous County,Hainan 
+重庆,重庆市,500000,Chongqing City,Chongqing
+成都,成都市,510100,Chengdu City,Sichuan 
+自贡,自贡市,510300,Zigong City,Sichuan 
+攀枝花,攀枝花市,510400,Panzhihua City,Sichuan 
+泸州,泸州市,510500,Luzhou City,Sichuan 
+德阳,德阳市,510600,Deyang City,Sichuan 
+绵阳,绵阳市,510700,Mianyang City,Sichuan 
+广元,广元市,510800,Guangyuan City,Sichuan 
+遂宁,遂宁市,510900,Suining City,Sichuan 
+内江,内江市,511000,Neijiang City,Sichuan 
+乐山,乐山市,511100,Leshan City,Sichuan 
+南充,南充市,511300,Nanchong City,Sichuan 
+眉山,眉山市,511400,Meishan City,Sichuan 
+宜宾,宜宾市,511500,Yibin City,Sichuan 
+广安,广安市,511600,Guang'an City,Sichuan 
+达州,达州市,511700,Dazhou City,Sichuan 
+雅安,雅安市,511800,Yaan City,Sichuan 
+巴中,巴中市,511900,Bazhong City,Sichuan 
+资阳,资阳市,512000,Ziyang City,Sichuan 
+阿坝,阿坝藏族羌族自治州,513200,Aba Tibetan and Qiang Autonomous Prefecture,Sichuan 
+甘孜,甘孜藏族自治州,513300,Garze Tibetan Autonomous Prefecture,Sichuan 
+凉山,凉山彝族自治州,513400,Liangshan Yi Autonomous Prefecture,Sichuan 
+贵阳,贵阳市,520100,Guiyang City,Guizhou 
+六盘水,六盘水市,520200,Liupanshui City,Guizhou 
+遵义,遵义市,520300,Zunyi City ,Guizhou 
+安顺,安顺市,520400,Anshun City,Guizhou 
+毕节,毕节市,520500,Bijie City,Guizhou 
+铜仁,铜仁市,520600,Tongren City,Guizhou 
+黔西南,黔西南布依族苗族自治州,522300,Qianxinan Buyi and Miao Autonomous Prefecture,Guizhou 
+黔东南,黔东南苗族侗族自治州,522600,Qiandongnan Miao and Dong Autonomous Prefecture,Guizhou 
+黔南,黔南布依族苗族自治州,522700,Qiannan Buyi and Miao Autonomous Prefecture,Guizhou 
+昆明,昆明市,530100,Kunming City,Yunnan 
+曲靖,曲靖市,530300,Qujing City,Yunnan 
+玉溪,玉溪市,530400,Yuxi City,Yunnan 
+保山,保山市,530500,Baoshan City,Yunnan 
+昭通,昭通市,530600,Zhaotong City,Yunnan 
+丽江,丽江市,530700,Lijiang City,Yunnan 
+普洱,普洱市,530800,Pu'er City,Yunnan 
+临沧,临沧市,530900,Lincang City,Yunnan 
+楚雄,楚雄彝族自治州,532300,Chuxiong Yi Autonomous Prefecture,Yunnan 
+红河,红河哈尼族彝族自治州,532500,Honghe Hani and Yi Autonomous Prefecture,Yunnan 
+文山,文山壮族苗族自治州,532600,Wenshan Zhuang and Miao Autonomous Prefecture,Yunnan 
+西双版纳,西双版纳傣族自治州,532800,Xishuangbanna Dai Autonomous Prefecture,Yunnan 
+大理,大理白族自治州,532900,Dali Bai Autonomous Prefecture,Yunnan 
+德宏,德宏傣族景颇族自治州,533100,Dehong Dai and Jingpo Autonomous Prefecture,Yunnan 
+怒江,怒江傈僳族自治州,533300,Nujiang Lisu Autonomous Prefecture,Yunnan 
+迪庆,迪庆藏族自治州,533400,Diqing Tibetan Autonomous Prefecture,Yunnan 
+拉萨,拉萨市,540100,Lhasa City,Tibet
+日喀则,日喀则市,540200,Shigatse City,Tibet
+昌都,昌都市,540300,Changdu City,Tibet
+林芝,林芝市,540400,Nyingchi City,Tibet
+山南,山南市,540500,Shannan City,Tibet
+那曲,那曲市,540600,Nagqu City,Tibet
+阿里,阿里地区,542500,Ngari Prefecture,Tibet
+西安,西安市,610100,Xi'an City,Shaanxi 
+铜川,铜川市,610200,Tongchuan City,Shaanxi 
+宝鸡,宝鸡市,610300,Baoji City,Shaanxi 
+咸阳,咸阳市,610400,Xianyang City,Shaanxi 
+渭南,渭南市,610500,Weinan City,Shaanxi 
+延安,延安市,610600,Yan'an City,Shaanxi 
+汉中,汉中市,610700,Hanzhong City,Shaanxi 
+榆林,榆林市,610800,Yulin City (Shaanxi）,Shaanxi 
+安康,安康市,610900,Ankang City,Shaanxi 
+商洛,商洛市,611000,Shangluo City,Shaanxi 
+兰州,兰州市,620100,Lanzhou City,Gansu 
+嘉峪关,嘉峪关市,620200,Jiayuguan City,Gansu 
+金昌,金昌市,620300,Jinchang City,Gansu 
+白银,白银市,620400,Baiyin City,Gansu 
+天水,天水市,620500,Tianshui City,Gansu 
+武威,武威市,620600,Wuwei City,Gansu 
+张掖,张掖市,620700,Zhangye City,Gansu 
+平凉,平凉市,620800,Pingliang City,Gansu 
+酒泉,酒泉市,620900,Jiuquan City,Gansu 
+庆阳,庆阳市,621000,Qingyang City,Gansu 
+定西,定西市,621100,Dingxi City,Gansu 
+陇南,陇南市,621200,Longnan City,Gansu 
+临夏,临夏回族自治州,622900,Linxia Hui Autonomous Prefecture,Gansu 
+甘南,甘南藏族自治州,623000,Gannan Tibetan Autonomous Prefecture,Gansu 
+西宁,西宁市,630100,Xining City,Qinghai 
+海东,海东市,630200,Haidong City,Qinghai 
+海北,海北藏族自治州,632200,Haibei Tibetan Autonomous Prefecture,Qinghai 
+黄南,黄南藏族自治州,632300,Huangnan Tibetan Autonomous Prefecture,Qinghai 
+海南州,海南藏族自治州,632500,Hainan Tibetan Autonomous Prefecture,Qinghai 
+果洛,果洛藏族自治州,632600,Golog Tibetan Autonomous Prefecture,Qinghai 
+玉树,玉树藏族自治州,632700,Yushu Tibetan Autonomous Prefecture,Qinghai 
+海西,海西蒙古族藏族自治州,632800,Haixi Mongolian and Tibetan Autonomous Prefecture,Qinghai 
+银川,银川市,640100,Yinchuan City,Ningxia
+石嘴山,石嘴山市,640200,Shizuishan City,Ningxia
+吴忠,吴忠市,640300,Wuzhong City,Ningxia
+固原,固原市,640400,Guyuan City,Ningxia
+中卫,中卫市,640500,Zhongwei City,Ningxia
+乌鲁木齐,乌鲁木齐市,650100,Urumqi City,Xinjiang
+克拉玛依,克拉玛依市,650200,Karamay City,Xinjiang
+吐鲁番,吐鲁番市,650400,Turpan City,Xinjiang
+哈密,哈密市,650500,Hami City,Xinjiang
+昌吉,昌吉回族自治州,652300,Changji Hui Autonomous Prefecture,Xinjiang
+博尔塔拉,博尔塔拉蒙古自治州,652700,Bortala Mongolian Autonomous Prefecture,Xinjiang
+巴音郭楞,巴音郭楞蒙古自治州,652800,Bayingolin Mongolian Autonomous Prefecture,Xinjiang
+阿克苏,阿克苏地区,652900,Aksu Prefecture,Xinjiang
+克孜勒苏柯尔克孜自治州,克孜勒苏柯尔克孜自治州,653000,Kizilsu Kirgiz Autonomous Prefecture,Xinjiang
+喀什,喀什地区,653100,Kashgar Prefecture,Xinjiang
+和田,和田地区,653200,Hotan Prefecture,Xinjiang
+伊犁,伊犁哈萨克自治州,654000,Yili Kazakh Autonomous Prefecture,Xinjiang
+塔城,塔城地区,654200,Tacheng Prefecture,Xinjiang
+阿勒泰,阿勒泰地区,654300,Altay Prefecture,Xinjiang
+石河子市,石河子市,659001,Shihezi City,Xinjiang
+阿拉尔市,阿拉尔市,659002,Aral City,Xinjiang
+图木舒克市,图木舒克市,659003,Tumushuke City,Xinjiang
+五家渠市,五家渠市,659004,Wujiaqu City,Xinjiang
+北屯市,北屯市,659005,Beitun City,Xinjiang
+铁门关市,铁门关市,659006,Tiemenguan City,Xinjiang
+双河市,双河市,659007,Shuanghe City,Xinjiang
