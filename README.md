@@ -92,19 +92,14 @@ pip install pandas==1.5.3 numpy==1.23.5 scikit-learn==1.2.2 \
 > Tip: create an isolated environment (e.g., `conda create -n eol-battery python=3.10`) before installing dependencies to avoid conflicts with system packages.
 
 ## Data Availability
-All input Excel and CSV files referenced by the scripts are provided under the corresponding `input data/` folders.
+All source data required to run the scripts are provided in the `input data` folders of each module. The repository also includes pre-computed outputs in the corresponding `output data` directories so results can be inspected without rerunning the models. When updating datasets, maintain the same schema as the supplied examples:
 
-| Module | Key inputs | Description |
-| --- | --- | --- |
-| `EOL power batteries prediction/input data/` | `2016-2030_PEV and CEV_month+data.xlsx` | Monthly vehicle registrations with socio-economic drivers. |
-|  | `annual_PEV_data.xlsx`, `annual_CEV_data.xlsx` | Annual aggregates used for calibration and validation. |
-|  | `battery proportion of 24 in TP.xlsx` | Scenario-specific technology shares for TP scenario. |
-| `scenario simulation/input data/` | `EOL LFP and NCM battery.xlsx` | Scenario-aligned EOL capacity by province, battery chemistry, and year. |
-|  | `Process type proportion_BS.xlsx` and analogous files | Shares of hydrometallurgical / pyrometallurgical processes under each scenario. |
-|  | `LCA data*.xlsx` series | Life-cycle impact factors for each treatment pathway. |
-| `environment assessment/Cross regions transportation/input data/` | `eol_city_year.csv`, `dist_city_city.csv`, `province_adjacency.csv`, etc. | City-level EOL supply, inter-city distances, and province-level constraints for transport modelling. |
-
-All outputs are written to the matching `output data/` directories. Delete or rename existing files if you want to regenerate results from scratch.
+- **Excel workbooks** are read using sheet names shown in each script (e.g., `Sheet1` for `2016-2030_PEV and CEV_month+data.xlsx`).
+- **CSV files** use UTF-8 encoding and comma separators with headers in the first row.
+- **Units**:
+  - Vehicle activity data are expressed in counts or thousand units as indicated in the spreadsheets.
+  - Battery EOL outputs are in thousand tonnes (Weight) and gigawatt-hours (Capacity).
+  - Transport outputs use tonnes, kilometres, and tonne-kilometres.
 
 ## Quick Start
 1. **Clone the repository**
