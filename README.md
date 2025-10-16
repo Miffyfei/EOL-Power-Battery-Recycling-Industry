@@ -27,37 +27,6 @@ This repository accompanies the paper **"Reducing the environmental impacts of b
 
 Executing the workflow reproduces the paper's quantitative outputs. Each script can also be run independently to evaluate alternative scenarios or updated datasets.
 
-## Repository Structure
-```
-EOL-Power-Battery-Recycling-Industry/
-├── EOL power batteries prediction/        # EOL forecasting models and outputs
-│   ├── input data/                        # Raw vehicle stock and socio-economic drivers (Excel)
-│   ├── output data/                       # Model artefacts, plots, and forecast tables
-│   ├── step1_prediction_CEV.py            # Clustered forecasting workflow for CEV
-│   ├── step1_Prediction_PEV.py            # Clustered forecasting workflow for PEV
-│   ├── step2_Prediction ... BS.py         # Scenario alignment – baseline
-│   ├── step2_Prediction ... ED.py         # Scenario alignment – Economic development
-│   ├── step2_Prediction ... LE.py         # Scenario alignment – Low emissions
-│   └── step2_Prediction ... TP.py         # Scenario alignment – Technology push
-│
-├── scenario simulation/                   # Recycling technology portfolio simulations
-│   ├── input data/                        # LCA coefficients, scenario-specific adjustments
-│   ├── output data/                       # Scenario level environmental and metal recovery summaries
-│   ├── Simulation_BS_environment.py       # Baseline scenario calculator
-│   ├── Simulation_TO_environment.py       # Technology-oriented scenario calculator
-│   ├── Simulation_ES_environment.py       # Energy-structure scenarios (ES1–ES3)
-│   ├── Simulation_SU_environment.py       # Supply-oriented scenario calculator
-│   ├── Simulation_AR_environment.py       # Alignment & relocation scenario calculator
-│   └── sum_comparison total environment impact and metal.ipynb
-│                                         # Notebook for aggregating and visualising scenario results
-│
-└── environment assessment/
-    ├── Cross regions transportation/
-    │   ├── input data/                    # Transport network, facility capacity, and adjacency matrices
-    │   ├── output data/                   # Route-level flow tables for each transport policy
-    │   └── CrossTransportation.py         # Transport optimisation and allocation script
-    └── output data/                       # Calculate provincial energy-mix impact factors
-```
 
 ## Repository Structure
 ```
@@ -65,8 +34,12 @@ EOL-Power-Battery-Recycling-Industry/
 ├── EOL power batteries prediction/
 │   ├── input data/                # Vehicle sales, stock, and auxiliary socio-economic variables
 │   ├── output data/               # Model diagnostics and forecast results (generated)
-│   ├── step1_*.py                 # Clustering & forecasting for PEV and CEV fleets
-│   └── step2_*.py                 # Converts vehicle retirements to EOL battery flows per pathway
+│   ├── step1_prediction_CEV.py            # Clustered forecasting workflow for CEV
+│   ├── step1_Prediction_PEV.py            # Clustered forecasting workflow for PEV
+│   ├── step2_Prediction ... BS.py         # Scenario alignment – baseline
+│   ├── step2_Prediction ... ED.py         # Scenario alignment – Enhance battery energy density
+│   ├── step2_Prediction ... LE.py         # Scenario alignment – Life extension
+│   └── step2_Prediction ... TP.py         # Scenario alignment – Adjust NCM battery to dominant
 ├── environment assessment/
 │   ├── Cross regions transportation/
 │   │   ├── input data/            # GIS-derived distances, facility capacities, enterprise counts
@@ -83,7 +56,7 @@ EOL-Power-Battery-Recycling-Industry/
 │   ├── Simulation_AR_environment.py       # Increase the authorized enterprises recycing rate
 │   └── sum_comparison total environment impact and metal.ipynb
 └── README.md
-
+```
 
 > **Note:** The current repository follows the layout used for the published experiments. Future refactoring will group shared utilities (e.g., common loaders and plotting helpers) into dedicated modules; contributions that improve modularity are very welcome.
 
