@@ -21,15 +21,11 @@
 ## Project Overview
 This repository accompanies the paper **"Reducing the environmental impacts of battery recycling through spatial and technological alignment"**. It contains the full modelling stack required to:
 
-1. **Prediction of EOL battery flows** for passenger electric vehicles (PEV) and commercial electric vehicles (CEV) using machine-learning models with automatic clustering, feature engineering, and cross-validation.
-2. **Scenario generation** translating vehicle retirements into provincial EOL battery volumes under four recycling technology pathways (Baseline, Technology Optimisation, Electrification Dominance, and Localisation Enhancement).
-3. **Environmental impact assessment** for 52 supply–demand combinations, including detailed metal recovery balances and cross-regional transport allocation to recycling facilities.
+1. **EOL power batteries prediction** for passenger electric vehicles (PEV) and commercial electric vehicles (CEV) using machine-learning models with automatic clustering, feature engineering, and cross-validation.
+2. **Environmental impact assessment** transport network modelling and energy-mix sensitivity analysis. This part of the environmental impact results is mainly calculated through the openlca software.
+3. **Scenario simulation** for 52 supply–demand combinations, including detailed metal recovery balances and cross-regional transport allocation to recycling facilities.
 
-The repository is organised into three functional modules that can be executed independently or as a complete workflow:
-
-1. **EOL power batteries prediction** – demand-side projections of battery retirements by city and scenario.
-2. **Scenario simulation** – technology portfolio mixes, environmental impacts, and metal recovery under different policy assumptions.
-3. **Environment assessment** – transport network modelling and energy-mix sensitivity analysis.
+Executing the workflow reproduces the paper's quantitative outputs. Each script can also be run independently to evaluate alternative scenarios or updated datasets.
 
 ## Repository Structure
 ```
@@ -60,8 +56,34 @@ EOL-Power-Battery-Recycling-Industry/
     │   ├── input data/                    # Transport network, facility capacity, and adjacency matrices
     │   ├── output data/                   # Route-level flow tables for each transport policy
     │   └── CrossTransportation.py         # Transport optimisation and allocation script
-    └── output data/                       # Energy-mix sensitivity factors (baseline & TO1–TO3)
+    └── output data/                       # Calculate provincial energy-mix impact factors
 ```
+
+## Repository Structure
+```
+.
+├── EOL power batteries prediction/
+│   ├── input data/                # Vehicle sales, stock, and auxiliary socio-economic variables
+│   ├── output data/               # Model diagnostics and forecast results (generated)
+│   ├── step1_*.py                 # Clustering & forecasting for PEV and CEV fleets
+│   └── step2_*.py                 # Converts vehicle retirements to EOL battery flows per pathway
+├── environment assessment/
+│   ├── Cross regions transportation/
+│   │   ├── input data/            # GIS-derived distances, facility capacities, enterprise counts
+│   │   ├── output data/           # Annual transport flows by scenario (generated)
+│   │   └── CrossTransportation.py # Formal & informal flow allocation and ton-kilometre calculation
+│   └── output data/               # Energy-mix impact factors used by scenario simulations
+├── scenario simulation/
+│   ├── input data/                # Life-cycle inventory (LCI) data, scenario parameters, battery mix
+│   ├── output data/               # Impact results for each supply-side scenario (generated)
+│   ├── Simulation_BS_environment.py       # Baseline scenario calculator
+│   ├── Simulation_TO_environment.py       # Technology-oriented scenario calculator
+│   ├── Simulation_ES_environment.py       # Energy-structure scenarios (ES1–ES3)
+│   ├── Simulation_SU_environment.py       # Increase secondary use of LFP batteries
+│   ├── Simulation_AR_environment.py       # Increase the authorized enterprises recycing rate
+│   └── sum_comparison total environment impact and metal.ipynb
+└── README.md
+
 
 > **Note:** The current repository follows the layout used for the published experiments. Future refactoring will group shared utilities (e.g., common loaders and plotting helpers) into dedicated modules; contributions that improve modularity are very welcome.
 
@@ -221,7 +243,7 @@ If you use this repository, please cite the associated article:
 ```
 @article{<placeholder>,
   title={Reducing the environmental impacts of battery recycling through spatial and technological alignment},
-  year={2024},
+  year={2025},
   author={Xi Tian, Fei Peng, Jon McKechnie, Amir F.N. Abdul-Manan, Yaobin Liu, Fanran Mengg*},
   note={Code available at https://github.com/<user>/EOL-Power-Battery-Recycling-Industry}
 }
