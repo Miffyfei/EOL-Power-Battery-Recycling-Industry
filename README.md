@@ -212,7 +212,7 @@ If you use this repository, please cite the associated article:
 @article{<placeholder>,
   title={Reducing the environmental impacts of battery recycling through spatial and technological alignment},
   year={2025},
-  author={Xi Tian, Fei Peng, Jon McKechnie, Amir F.N. Abdul-Manan, Yaobin Liu, Fanran Mengg*},
+  author={Xi Tian, Fei Peng, Jon McKechnie, Amir F.N. Abdul-Manan, Yaobin Liu, Fanran Meng*},
   note={Code available at https://github.com/<user>/EOL-Power-Battery-Recycling-Industry}
 }
 ```
