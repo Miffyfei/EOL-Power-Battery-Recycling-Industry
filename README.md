@@ -174,9 +174,9 @@ Each script reads the outputs from Step 1, combines them with technology adoptio
 | `step1_Prediction_PEV.py` | Clusters provinces and trains machine-learning models to forecast PEV retirements through 2030. | `input data/2016-2030_PEV and CEV_month+data.xlsx` (`Sheet1`) | `output data/results_electric vehicle/PEV_*.xlsx`, diagnostic PNGs |
 | `step1_prediction_CEV.py` | Same as above for CEV fleet with tailored feature set and hyperparameters. | `input data/2016-2030_PEV and CEV_month+data.xlsx` (`Sheet1`) | `output data/results_electric vehicle/CEV_*.xlsx`, diagnostic PNGs |
 | `step2_Prediction EOL power battery from CEV and PEV in BS.py` | Combines Step 1 forecasts with Baseline recycling technology shares. | `output data/results_electric vehicle/*Forecast_by_province.xlsx`, `input data/annual_*_data.xlsx` | `output data/results_EOL power battery/BS_*.xlsx` |
-| `step2_Prediction EOL power battery from CEV and PEV in TP.py` | Technology optimisation pathway | Same as above plus `battery proportion of 24 in TP.xlsx` | `output data/results_EOL power battery/TP_*.xlsx` |
-| `step2_Prediction EOL power battery from CEV and PEV in ED.py` | Electrification dominance pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/ED_*.xlsx` |
-| `step2_Prediction EOL power battery from CEV and PEV in LE.py` | Localisation enhancement pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/LE_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in TP.py` | Shift towards NCM as the dominant batteries | Same as above plus `battery proportion of 24 in TP.xlsx` | `output data/results_EOL power battery/TP_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in ED.py` | Enhancement energy density pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/ED_*.xlsx` |
+| `step2_Prediction EOL power battery from CEV and PEV in LE.py` | Battery life extension pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/LE_*.xlsx` |
 
 ### Environmental assessment module
 | Script | Purpose | Key inputs | Key outputs |
@@ -191,8 +191,8 @@ The folder `environment assessment/output data/` stores energy mix impact factor
 | `Simulation_BS_environment.py` | Calculates environmental burdens and recovered metals for the Baseline supply-side strategy. | `input data/LCA data.xlsx`, `input data/Process type proportion_BS.xlsx`, `input data/EOL LFP and NCM battery.xlsx` | `output data/Environmental impact and metal recovery results under BS scenario.xlsx` |
 | `Simulation_TO_environment.py` | Technology optimisation supply-side assumptions. | `input data/100%TOSumLCA.xlsx` and shared LCA files | `output data/Environmental impact and metal recovery results under TO scenario.xlsx` |
 | `Simulation_ES_environment.py` | Energy structure scenarios (ES1–ES3). | `input data/LCA data about ES*.xlsx` | `output data/Environmental impact and metal recovery results under ES scenario.xlsx` |
-| `Simulation_SU_environment.py` | Supply-side upgrade scenario. | `input data/LCA data with SU.xlsx` | `output data/Environmental impact and metal recovery results under SU scenario.xlsx` |
-| `Simulation_AR_environment.py` | Advanced recovery scenario combining technology and energy improvements. | `input data/Environmental_impacts_with_transport under4 scenario.xlsx` | `output data/Environmental impact and metal recovery results under AR scenario.xlsx` |
+| `Simulation_SU_environment.py` | Increased secondary-use scenario. | `input data/LCA data with SU.xlsx` | `output data/Environmental impact and metal recovery results under SU scenario.xlsx` |
+| `Simulation_AR_environment.py` | Advanced authorized recovery scenario. | `input data/Environmental_impacts_with_transport under4 scenario.xlsx` | `output data/Environmental impact and metal recovery results under AR scenario.xlsx` |
 | `sum_comparison total environment impact and metal.ipynb` | Interactive workbook to compare results across scenarios and prepare figures. | Scenario outputs listed above | Visualisations and aggregate tables |
 
 ## Troubleshooting
