@@ -12,7 +12,7 @@
   - [3. Quantify environmental impacts](#3-quantify-environmental-impacts)
 - [Module Reference](#module-reference)
   - [Prediction module](#prediction-module)
-  - [Environmental assessment module](#environmental-assessment-module)
+  - [Cross-reginoal transportation simulation and environmental assessment module](#Cross-reginoal-transportation-simulation-and-environmental-assessment-module)
   - [Scenario simulation module](#scenario-simulation-module)
 - [Troubleshooting](#troubleshooting)
 - [Citation](#citation)
@@ -40,7 +40,7 @@ Executing the workflow reproduces the paper's quantitative outputs. Each script 
 │   ├── step2_Prediction ... ED.py         # Scenario alignment – Enhance battery energy density
 │   ├── step2_Prediction ... LE.py         # Scenario alignment – Life extension
 │   └── step2_Prediction ... TP.py         # Scenario alignment – Adjust NCM battery to dominant
-├── environment assessment/
+├── Cross-reginoal transportation simulation and environmental assessment/
 │   ├── Cross regions transportation/
 │   │   ├── input data/            # GIS-derived distances, facility capacities, enterprise counts
 │   │   ├── output data/           # Annual transport flows by scenario (generated)
@@ -178,7 +178,7 @@ Each script reads the outputs from Step 1, combines them with technology adoptio
 | `step2_Prediction EOL power battery from CEV and PEV in ED.py` | Enhancement energy density pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/ED_*.xlsx` |
 | `step2_Prediction EOL power battery from CEV and PEV in LE.py` | Battery life extension pathway | Step 1 outputs, annual data | `output data/results_EOL power battery/LE_*.xlsx` |
 
-### Environmental assessment module
+### Cross-reginoal transportation simulation and environmental assessment module
 | Script | Purpose | Key inputs | Key outputs |
 |--------|---------|------------|-------------|
 | `Cross regions transportation/CrossTransportation.py` | Allocates EOL flows between provinces, calculates tonne-kilometres, and summarises informal vs. formal collection. | `Cross regions transportation/input data/*.csv` | `Cross regions transportation/output data/*_transport_results.xlsx` |
