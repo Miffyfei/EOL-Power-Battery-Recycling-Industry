@@ -3,7 +3,8 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
-- [Data Availability](#data-availability)
+- [Data & Code Availability](#data--code-availability)
+- [Nature-ready Data Availability Statement Template](#nature-ready-data-availability-statement-template)
 - [System & Software Requirements](#system--software-requirements)
 - [Quick Start](#quick-start)
 - [Recommended Workflow](#recommended-workflow)
@@ -91,8 +92,45 @@ pip install pandas==1.5.3 numpy==1.23.5 scikit-learn==1.2.2 \
 
 > Tip: create an isolated environment (e.g., `conda create -n eol-battery python=3.10`) before installing dependencies to avoid conflicts with system packages.
 
-## Data Availability
-All source data required to run the scripts are provided in the `input data` folders of each module. The repository also includes pre-computed outputs in the corresponding `output data` directories so results can be inspected without rerunning the models. When updating datasets, maintain the same schema as the supplied examples:
+## Data & Code Availability
+To align this repository with Nature Portfolio data and code policies, keep both **code** and **underlying data** publicly accessible whenever possible.
+
+### 1) Public deposition (recommended default)
+- Archive this repository in a public long-term repository (e.g., Zenodo, Figshare, OSF, or institutional repository) and cite the persistent identifier (DOI/URL).
+- Deposit raw/intermediate datasets required to reproduce main figures and tables in a public data repository.
+- Add versioned release tags (for example, `v1.0-paper`) corresponding to the manuscript submission/revision.
+
+### 2) If public deposition is restricted
+If legal, ethical, privacy, contractual, or licensing constraints prevent open release:
+- clearly state **which files are restricted**;
+- explain **why** they are restricted;
+- provide a **request route** (contact email + criteria/process);
+- indicate whether de-identified/aggregated substitutes are provided.
+
+### 3) Mandatory repository data types
+For data types where journal policy requires repository deposition, include the repository accession/DOI directly in the manuscript and in this README. Any limitation must be explicitly justified and discussed with the editor.
+
+### 4) Reproducibility package checklist
+Include the following in the public package:
+- scripts used to generate all key results;
+- input datasets or links/accessions to deposited datasets;
+- environment/dependency information (already documented below);
+- precomputed outputs used for validation;
+- a clear license for code and (if possible) data.
+
+### 5) Study-specific data sources (for this paper)
+The dataset necessary to interpret, verify and reproduce the main findings of this study is available through the **Source Data files** provided with this paper, the **Supplementary Information**, and the public sources listed below. Source Data are provided for the main figures containing plotted data.
+
+Publicly accessible input data were obtained from:
+- **Baidu Index** platform;
+- the **Ministry of Industry and Information Technology of China (MIIT)**;
+- city-level **Statistical Bulletins on National Economic and Social Development**.
+
+Information on municipal recycling technologies and city-level treatment capacities was compiled from the **China Project Development Network** (accessed in **December 2024**), and enterprise classification data were obtained from the **TianYanCha** business registry.
+
+Background life cycle inventory (LCI) data were obtained from **ecoinvent v3.9.1** and **TianGong LCA**, subject to the access conditions of the respective databases. Data originating from third-party platforms that cannot be redistributed directly should be obtained from the original providers.
+
+The current repository structure already separates `input data/` and `output data/` folders by module. When updating datasets, maintain the same schema as the supplied examples:
 
 - **Excel workbooks** are read using sheet names shown in each script (e.g., `Sheet1` for `2016-2030_PEV and CEV_month+data.xlsx`).
 - **CSV files** use UTF-8 encoding and comma separators with headers in the first row.
@@ -100,6 +138,18 @@ All source data required to run the scripts are provided in the `input data` fol
   - Vehicle activity data are expressed in counts or thousand units as indicated in the spreadsheets.
   - Battery EOL outputs are in thousand tonnes (Weight) and gigawatt-hours (Capacity).
   - Transport outputs use tonnes, kilometres, and tonne-kilometres.
+
+## Nature-ready Data Availability Statement Template
+Copy and adapt the template below into your manuscript (Data Availability section) and optionally into this README:
+
+> The dataset necessary to interpret, verify and reproduce the main findings of this study is available through the **Source Data files**, **Supplementary Information**, and the public sources listed in this repository. Source Data are provided for the main figures containing plotted data.
+>
+> The data and code that support the findings of this study are publicly available at **[repository name]**: **[DOI/URL]** (version: **[tag/release/date]**). The deposited materials include raw input datasets, processed analysis tables, and scripts required to reproduce the main results and figures.
+>
+> For data that cannot be publicly released due to **[legal/ethical/commercial/licensing reason]**, access can be requested from **[contact person/email]** subject to **[conditions, approval process, data-use agreement]**. A de-identified or aggregated dataset **[is/is not]** provided at **[DOI/URL or repository path]**.
+>
+> Any data type subject to mandatory repository deposition under journal policy has been deposited at **[repository/accession/DOI]**.
+
 
 ## Quick Start
 1. **Clone the repository**
