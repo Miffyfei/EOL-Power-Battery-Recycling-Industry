@@ -254,16 +254,16 @@ The folder `environment assessment/output data/` stores energy mix impact factor
 | Long runtime during model tuning | Reduce `N_TRIALS`/`N_SPLITS` parameters near the top of the Step 1 scripts for exploratory runs. |
 
 ## Citation
-If you use this repository, please cite the associated article:
+If you use this repository, please cite the associated article: Tian X, Peng F, McKechnie J, Abdul-Manan AFN, Liu Y, Meng F. Sustainable battery recycling through spatial and technological alignment. Nat Sustainability 2026:1–15. https://doi.org/10.1038/s41893-026-01851-6.
 
->  **Reducing the environmental impacts of battery recycling through spatial and technological alignment.**
+>  **Sustainable battery recycling through spatial and technological alignment**
 
 ```
 @article{<placeholder>,
   title={Sustainable battery recycling through spatial and technological alignment},
   year={2025},
   author={Xi Tian, Fei Peng, Jon McKechnie, Amir F.N. Abdul-Manan, Yaobin Liu, Fanran Meng*},
-  note={Code available at https://github.com/<user>/EOL-Power-Battery-Recycling-Industry}
+  note={Code available at https://github.com/Miffyfei/EOL-Power-Battery-Recycling-Industry.git}
 }
 ```
 
